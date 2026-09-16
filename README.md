@@ -13,6 +13,10 @@ SMART-DS data and models are used for the power system model inputs. More inform
 
 The GIS data related to aspects like ground cover and lightning strikes were sourced from a few different databases listed here:
 
+Relative risk of different ignition sources is calibrated by the ignition historical records available:
+https://www.cpuc.ca.gov/industries-and-topics/wildfires
+
+
 ## Running the risk quantification
 
 ## Visualizing the risk quantification
