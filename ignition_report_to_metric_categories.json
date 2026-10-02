@@ -1,0 +1,67 @@
+"dist_factors":{
+    "line_to_veg_dist":{"short":{"Material at Origin":["Vegetation"]}},
+    "line_to_line_dist":{"short":{"Equipment Facility Failure":["Conductor", "Conductor - Open Wire Secondary","Conductor - Primary", "Conductor - Service Neutral", "Conductor - Transmission", "Conductor failure-all", "WIRE-TO-WIRE CONTACT"]}},
+    "line_to_gnd_dist":{"short":{"Equipment Involved With Ignition":["Common Neutral", "Conductor", "Conductor - all", "Conductor - Open Wire Secondary", "Conductor - Primary", "Conductor - Secondary", "Conductor - Service Neutral", "Conductor - Transmission","Connector", "Grounding Wire",  ]}},
+    "line_age":{"old":{"Equipment Facility Failure":["Conductor", "Conductor - Insulated Primary", "Conductor - Insulated Secondary",  "Conductor - Open Wire Secondary","Conductor - Primary", "Conductor - Secondary", "Conductor - Service Neutral", "Conductor - Transmission", "Conductor failure-all", "Insulator", "Insulator failure", "SECONDARY CONDUCTOR OH", "Service Drop", "WIRE-TO-WIRE CONTACT"]}},
+    "transformer_age":{"old":{"Equipment Facility Failure": ["Potential Transformer", "Transformer", "Transformer Bushing", "Transformer Failure"]}},
+    "oil_type_transformer":{},
+    "overhead":{
+        "overhead":{"Type":["Overhead","DISTRIBUTION", "Blank"]},
+        "padmount":{"Type":["Padmounted","Padmount"]},
+        "underground":{"Type":["Underground","Subsurface"]}
+    },
+    "uninsulated":{
+        "True":{"Suspected Ignition Cause":["Contact - Animal - Bird", "Contact - Animal - Nest", "Contact - Animal - Other", "Contact from Object", "Vegetation", "Wire-to-wire contact", "Wire-Wire Contact"]}},
+    "line_peak_load":{
+        "high":{"Equipment Facility Failure":["Conductor", "Conductor - Insulated Primary", "Conductor - Insulated Secondary",  "Conductor - Open Wire Secondary","Conductor - Primary", "Conductor - Secondary", "Conductor - Service Neutral", "Conductor - Transmission", "Conductor failure-all", "Insulator", "Insulator failure", "SECONDARY CONDUCTOR OH", "Service Drop", "WIRE-TO-WIRE CONTACT"]}
+    },
+    "transformer_peak_load":{
+        "high":{"Equipment Facility Failure": ["Potential Transformer", "Transformer", "Transformer Bushing", "Transformer Failure"]},
+    },
+    "hif_detection":{},
+    "powersafety_shutoff":{},
+    "fuse_type":{
+        "expulsion":{"Equipment Involved With Ignition":["E Fuse","Fault Tamer", "Fuse","Open Link Fuse"]},
+        "circuit_breaker":{"Equipment Involved With Ignition":["Circuit Breaker"]},
+        "recloser":{"Equipment Involved With Ignition":["Recloser"]}
+    },
+    "response_team_coordination":{
+    "True":{"Suppressed":["Cal Fire","Fire Agency","Patrol","Utility","Utility - PG&E"]}
+    },
+    "high_fidelity_tracking":{},
+    "pole_type":{
+        "wood":{"Equipment Facility Failure":["Pole failure", "Crossarm", "Crossarm failure", "Pole", "CROSS ARM"]},
+        "wrapped":{},
+        "metal":{},
+        "other":{}
+    }
+},
+
+"env_factors":{
+    "ground_veg":{
+        "Desert":{"Land Use at Origin": ["Barren/Other", "Desert Shrub"]},
+        "Savanna":{"Land Use at Origin": ["Shrub", "Highly Rural"],
+        "Grassland":{"Land Use at Origin":["Herbaceous","Highly Rural","Rural"]},
+        "Forest":{"Land Use at Origin":["Conifer Forest", "Conifer Woodland", "Hardwood Forest", "Hardwood Woodland"]},
+        "Agriculture":{"Land Use at Origin":["Agriculture", "Agricultural"],},
+        "Deciduous":{"Land Use at Origin":["Hardwood Forest", "Hardwood Woodland"]},
+        "Non-Deciduous":{"Land Use at Origin":["all except Deciduous"],
+        "Material at Origin":["Vegetation"]},
+        "Managed":{"Land Use at Origin":["Agriculture", "Agricultural", "Urban"]},
+        "Unmanaged":{"Land Use at Origin":["Barren/Other", "Rural", "Highly Rural"]},
+        "Natural":{"Material at Origin":["Vegetation"]}},
+    },
+
+    "lightning":{
+        "nearby":{
+            "Suspected Ignition Cause": ["Weather - Lightning"],
+            "Equipment Involved With Ignition": ["Lightning Arrestor", "Lightning arrestor"]}
+    },
+    "wind_speed":{
+        "high":{
+            "Suspected Ignition Cause":["Vegetation", "Unknown", "Under Investigation", "Weather - High Wind", "Wire-to-wire contact", "Wire-Wire Contact"]
+        }
+    },
+    "ambient_temp":{
+    }
+}

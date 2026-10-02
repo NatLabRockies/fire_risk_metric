@@ -1,0 +1,83 @@
+"dist_factors":{
+    "line_to_veg_dist":{
+        "short":0
+    },
+    "line_to_line_dist":{
+        "short":0
+    },
+    "line_to_gnd_dist":{
+        "short":0
+    },
+    "line_age":{
+        "old":0
+    },
+    "transformer_age":{
+        "old":0
+    },
+    "oil_type_transformer":{
+    },
+    "overhead":{
+        "overhead":0,
+        "padmount":0,
+        "underground":0
+    },
+    "uninsulated":{
+        "True":0,
+        "False":0
+    },
+    "line_peak_load":{
+        "high":0
+    },
+    "transformer_peak_load":{
+        "high":0
+    },
+    "hif_detection":{
+
+    },
+    "powersafety_shutoff":{
+
+    },
+    "fuse_type":{
+        "expulsion":0,
+        "circuit_breaker":0,
+        "recloser":0
+    },
+    "response_team_coordination":{
+        "True": 0,
+        "False": 0
+        },
+    "high_fidelity_tracking":{},
+    "pole_type":{
+        "wood":0,
+        "wrapped":0,
+        "metal":0,
+        "other":0
+    }
+},
+"env_factors":{
+    "ground_veg":{
+        "Desert":0,
+        "Savanna":0,
+        "Grassland":0,
+        "Forest":0,
+        "Agriculture":0,
+        "Deciduous":0,
+        "Non-Deciduous":0,
+        "Managed":0,
+        "Unmanaged":0,
+        "Natural":0
+    },
+    "soil_satruation":{
+
+    },
+    "veg_moisture":{
+    },
+    "lightning":{
+        "nearby":0
+    },
+    "wind_speed":{
+        "high":0
+    },
+    "ambient_temp":{
+    }
+}
