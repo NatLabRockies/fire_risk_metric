@@ -454,7 +454,8 @@ def quantify_fire_risk(power_model_risk, power_model_dir, fire_gis_dir, soil_fil
     terrain_component_coords, soil_risk, lightning_risk, veg_risk = get_terrain_coords(soil_file, soil_moisture_file, veg_file, lightning_file, burnprob_file)
     # use nearest neighbor to find interdependent risk factors
     total_fire_risk = get_interrelated_risk(terrain_component_coords, dist_fire_components, soil_risk, lightning_risk, veg_risk, temperature_file, wind_file)
-    
+    with open('calculated_total_risk.json', 'w') as risk_file:
+        json.dump(total_fire_risk, risk_file)
     return total_fire_risk
 
 if __name__=="__main__":
