@@ -6,6 +6,8 @@ import pandas as pd
 # datasets can be downloaded with the below bash command from the below link
 # aws s3 cp --no-sign-request s3://oedi-data-lake/SMART-DS/v1.0/ your_dir_here --recursive
 # https://data.openei.org/s3_viewer?bucket=oedi-data-lake&prefix=SMART-DS%2F
+# for example: aws s3 cp --no-sign-request s3://oedi-data-lake/SMART-DS/v1.0/2018/SFO/P28U/scenarios/solar_medium_batteries_low_timeseries/opendss_no_loadshapes/ examples\smart_ds_smbl_p28u\p28u\scenarios\solar_medium_batteries_low_timeseries\opendss\. --recursive
+
 data_location = os.path.join('examples', 'smart_ds_smbl_p28u') #os.path.join('/datasets','SMART-DS','v1.0','2016','SFO')
 
 def download_analysis_data():
