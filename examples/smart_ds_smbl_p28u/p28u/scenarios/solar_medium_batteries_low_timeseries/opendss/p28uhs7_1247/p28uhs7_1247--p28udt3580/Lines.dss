@@ -1,0 +1,6 @@
+New Line.l(r:p28udt3580-p28uhs7_1247) Units=km Length=0.001 bus1=p28udt3580-p28uhs7_1247x.1.2.3 bus2=p28udt3580.1.2.3 switch=n enabled=y phases=3 Linecode=3P_OH_AL_ACSR_4/0_Penguin_3_1
+
+New Line.l(r:p28udt3580lv-p28ulv14108) Units=km Length=0.0248438 bus1=p28udt3580lv.1.2.3 bus2=p28ulv14108.1.2.3 switch=n enabled=y phases=3 Linecode=3P_UG_AL_3_1
+
+New Line.l(r:p28udt3580lv-p28ulv14127) Units=km Length=0.0248438 bus1=p28udt3580lv.1.2.3 bus2=p28ulv14127.1.2.3 switch=n enabled=y phases=3 Linecode=3P_UG_AL_3_1
+

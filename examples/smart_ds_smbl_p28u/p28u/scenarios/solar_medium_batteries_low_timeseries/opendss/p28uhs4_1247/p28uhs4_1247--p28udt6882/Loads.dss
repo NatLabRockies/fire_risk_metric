@@ -1,0 +1,778 @@
+New Load.load_p28ulv3747_1 conn=wye bus1=p28ulv3747.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.3136780250521567 kvar=0.6274781256964336 Phases=1 !yearly=com_kw_31583_pu
+
+New Load.load_p28ulv3747_2 conn=wye bus1=p28ulv3747.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.3136780250521567 kvar=0.6274781256964336 Phases=1 !yearly=com_kw_31583_pu
+
+New Load.load_p28ulv3765_1 conn=wye bus1=p28ulv3765.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=4.733478710161679 kvar=0.5127993135307415 Phases=1 !yearly=com_kw_16723_pu
+
+New Load.load_p28ulv3765_2 conn=wye bus1=p28ulv3765.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=4.733478710161679 kvar=0.5127993135307415 Phases=1 !yearly=com_kw_16723_pu
+
+New Load.load_p28ulv3792_1 conn=wye bus1=p28ulv3792.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.1661051467831762 kvar=0.6317161905393411 Phases=1 !yearly=com_kw_19648_pu
+
+New Load.load_p28ulv3792_2 conn=wye bus1=p28ulv3792.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.1661051467831762 kvar=0.6317161905393411 Phases=1 !yearly=com_kw_19648_pu
+
+New Load.load_p28ulv3850_1 conn=wye bus1=p28ulv3850.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=1.7306146078932911 kvar=0.42683788590794824 Phases=1 !yearly=com_kw_1644_pu
+
+New Load.load_p28ulv3850_2 conn=wye bus1=p28ulv3850.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=1.7306146078932911 kvar=0.42683788590794824 Phases=1 !yearly=com_kw_1644_pu
+
+New Load.load_p28ulv3894_1 conn=wye bus1=p28ulv3894.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.243385388928283 kvar=0.18185664736822973 Phases=1 !yearly=com_kw_18116_pu
+
+New Load.load_p28ulv3894_2 conn=wye bus1=p28ulv3894.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.243385388928283 kvar=0.18185664736822973 Phases=1 !yearly=com_kw_18116_pu
+
+New Load.load_p28ulv3957_1 conn=wye bus1=p28ulv3957.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=1.4786893203254163 kvar=0.3666592754227633 Phases=1 !yearly=com_kw_29668_pu
+
+New Load.load_p28ulv3957_2 conn=wye bus1=p28ulv3957.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=1.4786893203254163 kvar=0.3666592754227633 Phases=1 !yearly=com_kw_29668_pu
+
+New Load.load_p28ulv4096_1 conn=wye bus1=p28ulv4096.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=1.839175601618853 kvar=0.4557221316666175 Phases=1 !yearly=com_kw_17204_pu
+
+New Load.load_p28ulv4096_2 conn=wye bus1=p28ulv4096.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=1.839175601618853 kvar=0.4557221316666175 Phases=1 !yearly=com_kw_17204_pu
+
+New Load.load_p28ulv4110_1 conn=wye bus1=p28ulv4110.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.468202499819808 kvar=0.6441055098757433 Phases=1 !yearly=com_kw_29656_pu
+
+New Load.load_p28ulv4110_2 conn=wye bus1=p28ulv4110.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.468202499819808 kvar=0.6441055098757433 Phases=1 !yearly=com_kw_29656_pu
+
+New Load.load_p28ulv4188_1 conn=wye bus1=p28ulv4188.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.3792157437474204 kvar=0.7512505382175723 Phases=1 !yearly=com_kw_2251_pu
+
+New Load.load_p28ulv4188_2 conn=wye bus1=p28ulv4188.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.3792157437474204 kvar=0.7512505382175723 Phases=1 !yearly=com_kw_2251_pu
+
+New Load.load_p28ulv5884_1 conn=wye bus1=p28ulv5884.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=5.960029949501431 kvar=0.322217385022483 Phases=1 !yearly=com_kw_17539_pu
+
+New Load.load_p28ulv5884_2 conn=wye bus1=p28ulv5884.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=5.960029949501431 kvar=0.322217385022483 Phases=1 !yearly=com_kw_17539_pu
+
+New Load.load_p28ulv5959_1 conn=wye bus1=p28ulv5959.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=4.254824635990053 kvar=1.0331077307381649 Phases=1 !yearly=com_kw_2449_pu
+
+New Load.load_p28ulv5959_2 conn=wye bus1=p28ulv5959.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=4.254824635990053 kvar=1.0331077307381649 Phases=1 !yearly=com_kw_2449_pu
+
+New Load.load_p28ulv5995 conn=wye bus1=p28ulv5995.1.2.3 kV=0.48 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=21.671618077046755 kvar=5.175899774481556 Phases=3 !yearly=com_kw_31976_pu
+
+New Load.load_p28ulv6022_1 conn=wye bus1=p28ulv6022.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.136651452497737 kvar=0.586908988148888 Phases=1 !yearly=com_kw_1363_pu
+
+New Load.load_p28ulv6022_2 conn=wye bus1=p28ulv6022.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.136651452497737 kvar=0.586908988148888 Phases=1 !yearly=com_kw_1363_pu
+
+New Load.load_p28ulv6181_1 conn=wye bus1=p28ulv6181.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.1674877724727226 kvar=0.5757691963629787 Phases=1 !yearly=com_kw_16145_pu
+
+New Load.load_p28ulv6181_2 conn=wye bus1=p28ulv6181.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.1674877724727226 kvar=0.5757691963629787 Phases=1 !yearly=com_kw_16145_pu
+
+New Load.load_p28ulv9987_1 conn=wye bus1=p28ulv9987.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=3.1801024488747824 kvar=0.6406661654566495 Phases=1 !yearly=res_kw_8318_pu
+
+New Load.load_p28ulv9987_2 conn=wye bus1=p28ulv9987.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=3.1801024488747824 kvar=0.6406661654566495 Phases=1 !yearly=res_kw_8318_pu
+
+New Load.load_p28ulv10046_1 conn=wye bus1=p28ulv10046.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=5.344689658272112 kvar=0.8155268521535948 Phases=1 !yearly=com_kw_31904_pu
+
+New Load.load_p28ulv10046_2 conn=wye bus1=p28ulv10046.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=5.344689658272112 kvar=0.8155268521535948 Phases=1 !yearly=com_kw_31904_pu
+
+New Load.load_p28ulv10049_1 conn=wye bus1=p28ulv10049.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.0284833762961116 kvar=0.7404692443519614 Phases=1 !yearly=res_kw_11028_pu
+
+New Load.load_p28ulv10049_2 conn=wye bus1=p28ulv10049.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.0284833762961116 kvar=0.7404692443519614 Phases=1 !yearly=res_kw_11028_pu
+
+New Load.load_p28ulv10073_1 conn=wye bus1=p28ulv10073.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=5.547211686956079 kvar=0.18814377021524833 Phases=1 !yearly=com_kw_34315_pu
+
+New Load.load_p28ulv10073_2 conn=wye bus1=p28ulv10073.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=5.547211686956079 kvar=0.18814377021524833 Phases=1 !yearly=com_kw_34315_pu
+
+New Load.load_p28ulv10123_1 conn=wye bus1=p28ulv10123.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=1.4950137537296666 kvar=0.31506625700854357 Phases=1 !yearly=res_kw_1471_pu
+
+New Load.load_p28ulv10123_2 conn=wye bus1=p28ulv10123.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=1.4950137537296666 kvar=0.31506625700854357 Phases=1 !yearly=res_kw_1471_pu
+
+New Load.load_p28ulv10127_1 conn=wye bus1=p28ulv10127.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.2370181650987906 kvar=0.5806603708512078 Phases=1 !yearly=com_kw_8566_pu
+
+New Load.load_p28ulv10127_2 conn=wye bus1=p28ulv10127.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.2370181650987906 kvar=0.5806603708512078 Phases=1 !yearly=com_kw_8566_pu
+
+New Load.load_p28ulv10160_1 conn=wye bus1=p28ulv10160.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=1.4148353854888571 kvar=0.6393114443430603 Phases=1 !yearly=res_kw_10562_pu
+
+New Load.load_p28ulv10160_2 conn=wye bus1=p28ulv10160.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=1.4148353854888571 kvar=0.6393114443430603 Phases=1 !yearly=res_kw_10562_pu
+
+New Load.load_p28ulv10161_1 conn=wye bus1=p28ulv10161.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=1.4163439957648214 kvar=0.5697938312046736 Phases=1 !yearly=res_kw_10279_pu
+
+New Load.load_p28ulv10161_2 conn=wye bus1=p28ulv10161.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=1.4163439957648214 kvar=0.5697938312046736 Phases=1 !yearly=res_kw_10279_pu
+
+New Load.load_p28ulv10165_1 conn=wye bus1=p28ulv10165.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=0.8288850538480296 kvar=0.31695217299610473 Phases=1 !yearly=res_kw_15213_pu
+
+New Load.load_p28ulv10165_2 conn=wye bus1=p28ulv10165.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=0.8288850538480296 kvar=0.31695217299610473 Phases=1 !yearly=res_kw_15213_pu
+
+New Load.load_p28ulv10174_1 conn=wye bus1=p28ulv10174.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.140962173014189 kvar=0.10805830108563602 Phases=1 !yearly=com_kw_39906_pu
+
+New Load.load_p28ulv10174_2 conn=wye bus1=p28ulv10174.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.140962173014189 kvar=0.10805830108563602 Phases=1 !yearly=com_kw_39906_pu
+
+New Load.load_p28ulv10182_1 conn=wye bus1=p28ulv10182.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.115569361753181 kvar=0.9348638272793568 Phases=1 !yearly=res_kw_7885_pu
+
+New Load.load_p28ulv10182_2 conn=wye bus1=p28ulv10182.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.115569361753181 kvar=0.9348638272793568 Phases=1 !yearly=res_kw_7885_pu
+
+New Load.load_p28ulv14138_1 conn=wye bus1=p28ulv14138.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=3.902887215219663 kvar=1.111231385342157 Phases=1 !yearly=com_kw_2430_pu
+
+New Load.load_p28ulv14138_2 conn=wye bus1=p28ulv14138.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=3.902887215219663 kvar=1.111231385342157 Phases=1 !yearly=com_kw_2430_pu
+
+New Load.load_p28ulv14145_1 conn=wye bus1=p28ulv14145.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=1.0259789164712427 kvar=0.3939170983724721 Phases=1 !yearly=res_kw_9096_pu
+
+New Load.load_p28ulv14145_2 conn=wye bus1=p28ulv14145.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=1.0259789164712427 kvar=0.3939170983724721 Phases=1 !yearly=res_kw_9096_pu
+
+New Load.load_p28ulv14148_1 conn=wye bus1=p28ulv14148.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=3.369508330977909 kvar=0.8198608700718711 Phases=1 !yearly=com_kw_35521_pu
+
+New Load.load_p28ulv14148_2 conn=wye bus1=p28ulv14148.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=3.369508330977909 kvar=0.8198608700718711 Phases=1 !yearly=com_kw_35521_pu
+
+New Load.load_p28ulv14150_1 conn=wye bus1=p28ulv14150.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.167256125860413 kvar=0.7240956093097729 Phases=1 !yearly=res_kw_14988_pu
+
+New Load.load_p28ulv14150_2 conn=wye bus1=p28ulv14150.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.167256125860413 kvar=0.7240956093097729 Phases=1 !yearly=res_kw_14988_pu
+
+New Load.load_p28ulv14156_1 conn=wye bus1=p28ulv14156.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.0191431035669187 kvar=0.3818764773978318 Phases=1 !yearly=com_kw_35553_pu
+
+New Load.load_p28ulv14156_2 conn=wye bus1=p28ulv14156.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.0191431035669187 kvar=0.3818764773978318 Phases=1 !yearly=com_kw_35553_pu
+
+New Load.load_p28ulv14161_1 conn=wye bus1=p28ulv14161.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.7146312183983485 kvar=0.11264482158049681 Phases=1 !yearly=com_kw_19893_pu
+
+New Load.load_p28ulv14161_2 conn=wye bus1=p28ulv14161.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.7146312183983485 kvar=0.11264482158049681 Phases=1 !yearly=com_kw_19893_pu
+
+New Load.load_p28ulv14176_1 conn=wye bus1=p28ulv14176.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=4.649329274745809 kvar=0.7638148765075456 Phases=1 !yearly=res_kw_7653_pu
+
+New Load.load_p28ulv14176_2 conn=wye bus1=p28ulv14176.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=4.649329274745809 kvar=0.7638148765075456 Phases=1 !yearly=res_kw_7653_pu
+
+New Load.load_p28ulv14180_1 conn=wye bus1=p28ulv14180.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=4.746238988679234 kvar=0.8164701125186392 Phases=1 !yearly=com_kw_39239_pu
+
+New Load.load_p28ulv14180_2 conn=wye bus1=p28ulv14180.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=4.746238988679234 kvar=0.8164701125186392 Phases=1 !yearly=com_kw_39239_pu
+
+New Load.load_p28ulv14808_1 conn=wye bus1=p28ulv14808.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=5.378741978124593 kvar=1.563704273536912 Phases=1 !yearly=com_kw_2436_pu
+
+New Load.load_p28ulv14808_2 conn=wye bus1=p28ulv14808.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=5.378741978124593 kvar=1.563704273536912 Phases=1 !yearly=com_kw_2436_pu
+
+New Load.load_p28ulv14816 conn=wye bus1=p28ulv14816.1.2.3 kV=0.48 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=44.47580495568152 kvar=9.361483833707402 Phases=3 !yearly=com_kw_34319_pu
+
+New Load.load_p28ulv14817_1 conn=wye bus1=p28ulv14817.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=8.61405311989352 kvar=2.5131152124909177 Phases=1 !yearly=com_kw_20760_pu
+
+New Load.load_p28ulv14817_2 conn=wye bus1=p28ulv14817.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=8.61405311989352 kvar=2.5131152124909177 Phases=1 !yearly=com_kw_20760_pu
+
+New Load.load_p28ulv14849_1 conn=wye bus1=p28ulv14849.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=8.269227051047388 kvar=0.7145800033518114 Phases=1 !yearly=com_kw_29665_pu
+
+New Load.load_p28ulv14849_2 conn=wye bus1=p28ulv14849.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=8.269227051047388 kvar=0.7145800033518114 Phases=1 !yearly=com_kw_29665_pu
+
+New Load.load_p28ulv14859_1 conn=wye bus1=p28ulv14859.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=3.7559736102245185 kvar=0.9640256231834735 Phases=1 !yearly=com_kw_34107_pu
+
+New Load.load_p28ulv14859_2 conn=wye bus1=p28ulv14859.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=3.7559736102245185 kvar=0.9640256231834735 Phases=1 !yearly=com_kw_34107_pu
+
+New Load.load_p28ulv14880 conn=wye bus1=p28ulv14880.1.2.3 kV=0.48 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=53.817174652763974 kvar=13.19588766226453 Phases=3 !yearly=com_kw_1029_pu
+
+New Load.load_p28ulv14921_1 conn=wye bus1=p28ulv14921.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=3.01164824929789 kvar=0.30321095330991316 Phases=1 !yearly=com_kw_17691_pu
+
+New Load.load_p28ulv14921_2 conn=wye bus1=p28ulv14921.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=3.01164824929789 kvar=0.30321095330991316 Phases=1 !yearly=com_kw_17691_pu
+
+New Load.load_p28ulv14927 conn=wye bus1=p28ulv14927.1.2.3 kV=0.48 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=58.08762549095885 kvar=14.914643178293616 Phases=3 !yearly=com_kw_1959_pu
+
+New Load.load_p28ulv14932 conn=wye bus1=p28ulv14932.1.2.3 kV=0.48 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=90.51717476218705 kvar=15.26467634740354 Phases=3 !yearly=com_kw_16186_pu
+
+New Load.load_p28ulv14954 conn=wye bus1=p28ulv14954.1.2.3 kV=0.48 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=63.735018010090414 kvar=18.751227226139736 Phases=3 !yearly=com_kw_16431_pu
+
+New Load.load_p28ulv14966 conn=wye bus1=p28ulv14966.1.2.3 kV=0.48 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=113.00325956479294 kvar=31.14709196448068 Phases=3 !yearly=com_kw_31434_pu
+
+New Load.load_p28ulv14971 conn=wye bus1=p28ulv14971.1.2.3 kV=0.48 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=137.80623620232242 kvar=36.67563963588114 Phases=3 !yearly=com_kw_17823_pu
+
+New Load.load_p28ulv14972_1 conn=wye bus1=p28ulv14972.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=4.026583781112619 kvar=1.1968570310317406 Phases=1 !yearly=com_kw_19559_pu
+
+New Load.load_p28ulv14972_2 conn=wye bus1=p28ulv14972.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=4.026583781112619 kvar=1.1968570310317406 Phases=1 !yearly=com_kw_19559_pu
+
+New Load.load_p28ulv15055 conn=wye bus1=p28ulv15055.1.2.3 kV=0.48 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=102.32309780468681 kvar=30.51753755494881 Phases=3 !yearly=com_kw_19494_pu
+
+New Load.load_p28ulv15086_1 conn=wye bus1=p28ulv15086.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=5.99674819723193 kvar=1.5298136548291 Phases=1 !yearly=com_kw_22452_pu
+
+New Load.load_p28ulv15086_2 conn=wye bus1=p28ulv15086.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=5.99674819723193 kvar=1.5298136548291 Phases=1 !yearly=com_kw_22452_pu
+
+New Load.load_p28ulv15127_1 conn=wye bus1=p28ulv15127.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=3.969120899436618 kvar=0.9483546590435907 Phases=1 !yearly=com_kw_16461_pu
+
+New Load.load_p28ulv15127_2 conn=wye bus1=p28ulv15127.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=3.969120899436618 kvar=0.9483546590435907 Phases=1 !yearly=com_kw_16461_pu
+
+New Load.load_p28ulv15170 conn=wye bus1=p28ulv15170.1.2.3 kV=0.48 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=43.29498898346709 kvar=10.789523144877958 Phases=3 !yearly=com_kw_17921_pu
+
+New Load.load_p28ulv15182_1 conn=wye bus1=p28ulv15182.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=5.385772821478587 kvar=1.6009172710699977 Phases=1 !yearly=com_kw_20964_pu
+
+New Load.load_p28ulv15182_2 conn=wye bus1=p28ulv15182.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=5.385772821478587 kvar=1.6009172710699977 Phases=1 !yearly=com_kw_20964_pu
+
+New Load.load_p28ulv15184_1 conn=wye bus1=p28ulv15184.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=4.234980013002153 kvar=0.7303750309107965 Phases=1 !yearly=res_kw_7105_pu
+
+New Load.load_p28ulv15184_2 conn=wye bus1=p28ulv15184.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=4.234980013002153 kvar=0.7303750309107965 Phases=1 !yearly=res_kw_7105_pu
+
+New Load.load_p28ulv16128_1 conn=wye bus1=p28ulv16128.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=3.060939667694842 kvar=0.018922139033990728 Phases=1 !yearly=com_kw_39425_pu
+
+New Load.load_p28ulv16128_2 conn=wye bus1=p28ulv16128.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=3.060939667694842 kvar=0.018922139033990728 Phases=1 !yearly=com_kw_39425_pu
+
+New Load.load_p28ulv16393_1 conn=wye bus1=p28ulv16393.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=6.1942993971392575 kvar=2.1345559660621376 Phases=1 !yearly=com_kw_39564_pu
+
+New Load.load_p28ulv16393_2 conn=wye bus1=p28ulv16393.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=6.1942993971392575 kvar=2.1345559660621376 Phases=1 !yearly=com_kw_39564_pu
+
+New Load.load_p28ulv16414 conn=wye bus1=p28ulv16414.1.2.3 kV=0.48 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=67.93331929322211 kvar=5.260920462328106 Phases=3 !yearly=com_kw_1208_pu
+
+New Load.load_p28ulv16418 conn=wye bus1=p28ulv16418.1.2.3 kV=0.48 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=122.62115464623308 kvar=38.35709572209164 Phases=3 !yearly=com_kw_34196_pu
+
+New Load.load_p28ulv16424_1 conn=wye bus1=p28ulv16424.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.444725768387703 kvar=0.6902267912659802 Phases=1 !yearly=com_kw_2032_pu
+
+New Load.load_p28ulv16424_2 conn=wye bus1=p28ulv16424.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.444725768387703 kvar=0.6902267912659802 Phases=1 !yearly=com_kw_2032_pu
+
+New Load.load_p28ulv16434 conn=wye bus1=p28ulv16434.1.2.3 kV=0.48 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=37.35154481295667 kvar=10.406074124283627 Phases=3 !yearly=com_kw_8420_pu
+
+New Load.load_p28ulv16450_1 conn=wye bus1=p28ulv16450.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=9.311765959648106 kvar=2.7038462244260324 Phases=1 !yearly=com_kw_1958_pu
+
+New Load.load_p28ulv16450_2 conn=wye bus1=p28ulv16450.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=9.311765959648106 kvar=2.7038462244260324 Phases=1 !yearly=com_kw_1958_pu
+
+New Load.load_p28ulv16484_1 conn=wye bus1=p28ulv16484.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=4.468052952254411 kvar=1.1680462060722665 Phases=1 !yearly=com_kw_32085_pu
+
+New Load.load_p28ulv16484_2 conn=wye bus1=p28ulv16484.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=4.468052952254411 kvar=1.1680462060722665 Phases=1 !yearly=com_kw_32085_pu
+
+New Load.load_p28ulv16521 conn=wye bus1=p28ulv16521.1.2.3 kV=0.48 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=131.5368194135272 kvar=34.68593338233769 Phases=3 !yearly=com_kw_39961_pu
+
+New Load.load_p28ulv16542_1 conn=wye bus1=p28ulv16542.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=3.025577912376512 kvar=0.6479907691217454 Phases=1 !yearly=com_kw_35494_pu
+
+New Load.load_p28ulv16542_2 conn=wye bus1=p28ulv16542.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=3.025577912376512 kvar=0.6479907691217454 Phases=1 !yearly=com_kw_35494_pu
+
+New Load.load_p28ulv16601_1 conn=wye bus1=p28ulv16601.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=6.2144140360104805 kvar=1.7877808629201233 Phases=1 !yearly=com_kw_35442_pu
+
+New Load.load_p28ulv16601_2 conn=wye bus1=p28ulv16601.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=6.2144140360104805 kvar=1.7877808629201233 Phases=1 !yearly=com_kw_35442_pu
+
+New Load.load_p28ulv16630_1 conn=wye bus1=p28ulv16630.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=1.5273570095169426 kvar=0.3555993518165159 Phases=1 !yearly=com_kw_41505_pu
+
+New Load.load_p28ulv16630_2 conn=wye bus1=p28ulv16630.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=1.5273570095169426 kvar=0.3555993518165159 Phases=1 !yearly=com_kw_41505_pu
+
+New Load.load_p28ulv16648 conn=wye bus1=p28ulv16648.1.2.3 kV=0.48 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=75.57617764497013 kvar=20.798487829284316 Phases=3 !yearly=com_kw_19964_pu
+
+New Load.load_p28ulv16652 conn=wye bus1=p28ulv16652.1.2.3 kV=0.48 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=44.70270585362643 kvar=10.3459434448582 Phases=3 !yearly=com_kw_17650_pu
+
+New Load.load_p28ulv16671 conn=wye bus1=p28ulv16671.1.2.3 kV=0.48 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=77.96167139999521 kvar=22.452215954911722 Phases=3 !yearly=com_kw_19813_pu
+
+New Load.load_p28ulv16673_1 conn=wye bus1=p28ulv16673.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.401267720054582 kvar=0.6871659709761725 Phases=1 !yearly=com_kw_35533_pu
+
+New Load.load_p28ulv16673_2 conn=wye bus1=p28ulv16673.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.401267720054582 kvar=0.6871659709761725 Phases=1 !yearly=com_kw_35533_pu
+
+New Load.load_p28ulv16676_1 conn=wye bus1=p28ulv16676.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.1698158732703443 kvar=0.8490689598373361 Phases=1 !yearly=res_kw_8743_pu
+
+New Load.load_p28ulv16676_2 conn=wye bus1=p28ulv16676.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.1698158732703443 kvar=0.8490689598373361 Phases=1 !yearly=res_kw_8743_pu
+
+New Load.load_p28ulv16680 conn=wye bus1=p28ulv16680.1.2.3 kV=0.48 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=48.014324793168875 kvar=11.171101973320843 Phases=3 !yearly=com_kw_32254_pu
+
+New Load.load_p28ulv16717_1 conn=wye bus1=p28ulv16717.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=9.311765959648106 kvar=2.7038462244260324 Phases=1 !yearly=com_kw_1958_pu
+
+New Load.load_p28ulv16717_2 conn=wye bus1=p28ulv16717.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=9.311765959648106 kvar=2.7038462244260324 Phases=1 !yearly=com_kw_1958_pu
+
+New Load.load_p28ulv16728_1 conn=wye bus1=p28ulv16728.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=1.7392455382108751 kvar=0.4362253237121403 Phases=1 !yearly=com_kw_41295_pu
+
+New Load.load_p28ulv16728_2 conn=wye bus1=p28ulv16728.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=1.7392455382108751 kvar=0.4362253237121403 Phases=1 !yearly=com_kw_41295_pu
+
+New Load.load_p28ulv16733 conn=wye bus1=p28ulv16733.1.2.3 kV=0.48 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=33.7563808518782 kvar=4.177514875247601 Phases=3 !yearly=com_kw_35437_pu
+
+New Load.load_p28ulv16748_1 conn=wye bus1=p28ulv16748.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=5.433170762161715 kvar=1.422509596700956 Phases=1 !yearly=res_kw_1818_pu
+
+New Load.load_p28ulv16748_2 conn=wye bus1=p28ulv16748.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=5.433170762161715 kvar=1.422509596700956 Phases=1 !yearly=res_kw_1818_pu
+
+New Load.load_p28ulv16823_1 conn=wye bus1=p28ulv16823.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=1.9522113739764493 kvar=0.5269598949238821 Phases=1 !yearly=com_kw_41612_pu
+
+New Load.load_p28ulv16823_2 conn=wye bus1=p28ulv16823.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=1.9522113739764493 kvar=0.5269598949238821 Phases=1 !yearly=com_kw_41612_pu
+
+New Load.load_p28ulv16856 conn=wye bus1=p28ulv16856.1.2.3 kV=0.48 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=16.914810252043182 kvar=12.240726998276182 Phases=3 !yearly=res_kw_2213_pu
+
+New Load.load_p28ulv21331_1 conn=wye bus1=p28ulv21331.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=10.369974742749319 kvar=1.3637915936026963 Phases=1 !yearly=com_kw_16157_pu
+
+New Load.load_p28ulv21331_2 conn=wye bus1=p28ulv21331.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=10.369974742749319 kvar=1.3637915936026963 Phases=1 !yearly=com_kw_16157_pu
+
+New Load.load_p28ulv21369 conn=wye bus1=p28ulv21369.1.2.3 kV=0.48 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=135.01847420956247 kvar=36.638704194048906 Phases=3 !yearly=com_kw_33934_pu
+
+New Load.load_p28ulv21452_1 conn=wye bus1=p28ulv21452.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=3.443583112785006 kvar=0.2576306570382033 Phases=1 !yearly=com_kw_32163_pu
+
+New Load.load_p28ulv21452_2 conn=wye bus1=p28ulv21452.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=3.443583112785006 kvar=0.2576306570382033 Phases=1 !yearly=com_kw_32163_pu
+
+New Load.load_p28ulv21453_1 conn=wye bus1=p28ulv21453.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=6.443604498642765 kvar=1.7259638488940166 Phases=1 !yearly=com_kw_19821_pu
+
+New Load.load_p28ulv21453_2 conn=wye bus1=p28ulv21453.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=6.443604498642765 kvar=1.7259638488940166 Phases=1 !yearly=com_kw_19821_pu
+
+New Load.load_p28umv16 conn=wye bus1=p28umv16.1.2.3 kV=12.47 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=1191.6272708379015 kvar=330.44010508256326 Phases=3 !yearly=com_kw_1573_pu
+
+New Load.load_p28ulv21690_1 conn=wye bus1=p28ulv21690.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=5.2701881496162395 kvar=1.4025135598345162 Phases=1 !yearly=com_kw_34191_pu
+
+New Load.load_p28ulv21690_2 conn=wye bus1=p28ulv21690.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=5.2701881496162395 kvar=1.4025135598345162 Phases=1 !yearly=com_kw_34191_pu
+
+New Load.load_p28ulv21706 conn=wye bus1=p28ulv21706.1.2.3 kV=0.48 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=246.3748339539142 kvar=70.77562830532926 Phases=3 !yearly=com_kw_2722_pu
+
+New Load.load_p28ulv21739 conn=wye bus1=p28ulv21739.1.2.3 kV=0.48 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=164.53575853857217 kvar=13.334103347059417 Phases=3 !yearly=com_kw_34091_pu
+
+New Load.load_p28ulv21769 conn=wye bus1=p28ulv21769.1.2.3 kV=0.48 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=164.53575853857217 kvar=13.334103347059417 Phases=3 !yearly=com_kw_34091_pu
+
+New Load.load_p28ulv25354 conn=wye bus1=p28ulv25354.1.2.3 kV=0.48 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=48.071733013642735 kvar=11.926325612560142 Phases=3 !yearly=com_kw_2446_pu
+
+New Load.load_p28ulv25377_1 conn=wye bus1=p28ulv25377.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=6.28699763016732 kvar=1.6995992436211846 Phases=1 !yearly=com_kw_39896_pu
+
+New Load.load_p28ulv25377_2 conn=wye bus1=p28ulv25377.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=6.28699763016732 kvar=1.6995992436211846 Phases=1 !yearly=com_kw_39896_pu
+
+New Load.load_p28ulv25378_1 conn=wye bus1=p28ulv25378.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=3.928612993304752 kvar=1.1341480629341723 Phases=1 !yearly=com_kw_8470_pu
+
+New Load.load_p28ulv25378_2 conn=wye bus1=p28ulv25378.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=3.928612993304752 kvar=1.1341480629341723 Phases=1 !yearly=com_kw_8470_pu
+
+New Load.load_p28ulv25387_1 conn=wye bus1=p28ulv25387.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=7.896789200590628 kvar=2.472155236415982 Phases=1 !yearly=com_kw_39584_pu
+
+New Load.load_p28ulv25387_2 conn=wye bus1=p28ulv25387.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=7.896789200590628 kvar=2.472155236415982 Phases=1 !yearly=com_kw_39584_pu
+
+New Load.load_p28ulv25434_1 conn=wye bus1=p28ulv25434.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=5.267800569445227 kvar=1.326231908066933 Phases=1 !yearly=com_kw_35574_pu
+
+New Load.load_p28ulv25434_2 conn=wye bus1=p28ulv25434.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=5.267800569445227 kvar=1.326231908066933 Phases=1 !yearly=com_kw_35574_pu
+
+New Load.load_p28ulv25459 conn=wye bus1=p28ulv25459.1.2.3 kV=0.48 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=79.76681221515071 kvar=23.757477690962183 Phases=3 !yearly=com_kw_1523_pu
+
+New Load.load_p28ulv25467 conn=wye bus1=p28ulv25467.1.2.3 kV=0.48 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=27.428237057907094 kvar=2.761989565816927 Phases=3 !yearly=com_kw_29213_pu
+
+New Load.load_p28ulv25511_1 conn=wye bus1=p28ulv25511.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=7.674855829688774 kvar=1.158452874033331 Phases=1 !yearly=com_kw_17278_pu
+
+New Load.load_p28ulv25511_2 conn=wye bus1=p28ulv25511.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=7.674855829688774 kvar=1.158452874033331 Phases=1 !yearly=com_kw_17278_pu
+
+New Load.load_p28ulv25517 conn=wye bus1=p28ulv25517.1.2.3 kV=0.48 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=162.54220210060254 kvar=45.82331953985542 Phases=3 !yearly=com_kw_20833_pu
+
+New Load.load_p28ulv25536_1 conn=wye bus1=p28ulv25536.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=1.9634400440168067 kvar=0.8860831185940086 Phases=1 !yearly=res_kw_10838_pu
+
+New Load.load_p28ulv25536_2 conn=wye bus1=p28ulv25536.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=1.9634400440168067 kvar=0.8860831185940086 Phases=1 !yearly=res_kw_10838_pu
+
+New Load.load_p28ulv25566_1 conn=wye bus1=p28ulv25566.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=10.134529812331413 kvar=1.1214595370779348 Phases=1 !yearly=com_kw_29089_pu
+
+New Load.load_p28ulv25566_2 conn=wye bus1=p28ulv25566.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=10.134529812331413 kvar=1.1214595370779348 Phases=1 !yearly=com_kw_29089_pu
+
+New Load.load_p28ulv25576 conn=wye bus1=p28ulv25576.1.2.3 kV=0.48 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=86.54714671668802 kvar=27.195658690190818 Phases=3 !yearly=com_kw_39382_pu
+
+New Load.load_p28ulv25587_1 conn=wye bus1=p28ulv25587.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=1.5604078463831266 kvar=0.5882122505209306 Phases=1 !yearly=res_kw_1527_pu
+
+New Load.load_p28ulv25587_2 conn=wye bus1=p28ulv25587.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=1.5604078463831266 kvar=0.5882122505209306 Phases=1 !yearly=res_kw_1527_pu
+
+New Load.load_p28ulv25595_1 conn=wye bus1=p28ulv25595.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=5.34232061128038 kvar=0.8968261778237218 Phases=1 !yearly=com_kw_33487_pu
+
+New Load.load_p28ulv25595_2 conn=wye bus1=p28ulv25595.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=5.34232061128038 kvar=0.8968261778237218 Phases=1 !yearly=com_kw_33487_pu
+
+New Load.load_p28ulv25606_1 conn=wye bus1=p28ulv25606.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=4.026583781112619 kvar=1.1968570310317406 Phases=1 !yearly=com_kw_19559_pu
+
+New Load.load_p28ulv25606_2 conn=wye bus1=p28ulv25606.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=4.026583781112619 kvar=1.1968570310317406 Phases=1 !yearly=com_kw_19559_pu
+
+New Load.load_p28ulv25609_1 conn=wye bus1=p28ulv25609.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.2143639459232007 kvar=0.7122713279236396 Phases=1 !yearly=res_kw_622_pu
+
+New Load.load_p28ulv25609_2 conn=wye bus1=p28ulv25609.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.2143639459232007 kvar=0.7122713279236396 Phases=1 !yearly=res_kw_622_pu
+
+New Load.load_p28ulv25621 conn=wye bus1=p28ulv25621.1.2.3 kV=0.48 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=28.389076462822093 kvar=7.810842433993619 Phases=3 !yearly=com_kw_18263_pu
+
+New Load.load_p28ulv25625_1 conn=wye bus1=p28ulv25625.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=9.135626893386874 kvar=2.850263595951412 Phases=1 !yearly=com_kw_19668_pu
+
+New Load.load_p28ulv25625_2 conn=wye bus1=p28ulv25625.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=9.135626893386874 kvar=2.850263595951412 Phases=1 !yearly=com_kw_19668_pu
+
+New Load.load_p28ulv25629_1 conn=wye bus1=p28ulv25629.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=5.325822906523696 kvar=1.4842075031177495 Phases=1 !yearly=com_kw_38994_pu
+
+New Load.load_p28ulv25629_2 conn=wye bus1=p28ulv25629.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=5.325822906523696 kvar=1.4842075031177495 Phases=1 !yearly=com_kw_38994_pu
+
+New Load.load_p28ulv25645_1 conn=wye bus1=p28ulv25645.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=1.838058295866342 kvar=0.49932281885782887 Phases=1 !yearly=com_kw_31626_pu
+
+New Load.load_p28ulv25645_2 conn=wye bus1=p28ulv25645.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=1.838058295866342 kvar=0.49932281885782887 Phases=1 !yearly=com_kw_31626_pu
+
+New Load.load_p28ulv25668_1 conn=wye bus1=p28ulv25668.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=4.992849242223794 kvar=1.2671851500922475 Phases=1 !yearly=com_kw_2805_pu
+
+New Load.load_p28ulv25668_2 conn=wye bus1=p28ulv25668.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=4.992849242223794 kvar=1.2671851500922475 Phases=1 !yearly=com_kw_2805_pu
+
+New Load.load_p28ulv25680 conn=wye bus1=p28ulv25680.1.2.3 kV=0.48 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=71.0597361322603 kvar=19.324874569837448 Phases=3 !yearly=com_kw_19538_pu
+
+New Load.load_p28ulv25682 conn=wye bus1=p28ulv25682.1.2.3 kV=0.48 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=65.4882950082963 kvar=17.935683347028995 Phases=3 !yearly=com_kw_39371_pu
+
+New Load.load_p28ulv25688_1 conn=wye bus1=p28ulv25688.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=4.727400869239814 kvar=1.2387723715410455 Phases=1 !yearly=com_kw_34137_pu
+
+New Load.load_p28ulv25688_2 conn=wye bus1=p28ulv25688.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=4.727400869239814 kvar=1.2387723715410455 Phases=1 !yearly=com_kw_34137_pu
+
+New Load.load_p28ulv25700_1 conn=wye bus1=p28ulv25700.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.438316346451239 kvar=0.6915244213249778 Phases=1 !yearly=res_kw_1109_pu
+
+New Load.load_p28ulv25700_2 conn=wye bus1=p28ulv25700.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.438316346451239 kvar=0.6915244213249778 Phases=1 !yearly=res_kw_1109_pu
+
+New Load.load_p28ulv25704 conn=wye bus1=p28ulv25704.1.2.3 kV=0.48 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=59.18899367010984 kvar=16.748720869661177 Phases=3 !yearly=com_kw_1600_pu
+
+New Load.load_p28ulv25719 conn=wye bus1=p28ulv25719.1.2.3 kV=0.48 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=56.483653444530766 kvar=15.043104636686213 Phases=3 !yearly=com_kw_22520_pu
+
+New Load.load_p28ulv25727_1 conn=wye bus1=p28ulv25727.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.2816928104449037 kvar=0.4107329194522798 Phases=1 !yearly=res_kw_4327_pu
+
+New Load.load_p28ulv25727_2 conn=wye bus1=p28ulv25727.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.2816928104449037 kvar=0.4107329194522798 Phases=1 !yearly=res_kw_4327_pu
+
+New Load.load_p28ulv25733_1 conn=wye bus1=p28ulv25733.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=5.445424619567141 kvar=0.9341390631764336 Phases=1 !yearly=com_kw_31854_pu
+
+New Load.load_p28ulv25733_2 conn=wye bus1=p28ulv25733.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=5.445424619567141 kvar=0.9341390631764336 Phases=1 !yearly=com_kw_31854_pu
+
+New Load.load_p28umv20 conn=wye bus1=p28umv20.1.2.3 kV=12.47 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=1105.5995913878805 kvar=290.31784022085054 Phases=3 !yearly=com_kw_17254_pu
+
+New Load.load_p28umv21 conn=wye bus1=p28umv21.1.2.3 kV=12.47 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=1191.6272708379015 kvar=330.44010508256326 Phases=3 !yearly=com_kw_1573_pu
+
+New Load.load_p28ulv25752_1 conn=wye bus1=p28ulv25752.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.7146312183983485 kvar=0.11264482158049681 Phases=1 !yearly=com_kw_19893_pu
+
+New Load.load_p28ulv25752_2 conn=wye bus1=p28ulv25752.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.7146312183983485 kvar=0.11264482158049681 Phases=1 !yearly=com_kw_19893_pu
+
+New Load.load_p28ulv25771_1 conn=wye bus1=p28ulv25771.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=0.8610958887358755 kvar=0.3372454435122266 Phases=1 !yearly=res_kw_12274_pu
+
+New Load.load_p28ulv25771_2 conn=wye bus1=p28ulv25771.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=0.8610958887358755 kvar=0.3372454435122266 Phases=1 !yearly=res_kw_12274_pu
+
+New Load.load_p28ulv25793_1 conn=wye bus1=p28ulv25793.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=8.749509454333857 kvar=2.6271276410997144 Phases=1 !yearly=com_kw_39401_pu
+
+New Load.load_p28ulv25793_2 conn=wye bus1=p28ulv25793.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=8.749509454333857 kvar=2.6271276410997144 Phases=1 !yearly=com_kw_39401_pu
+
+New Load.load_p28ulv25804_1 conn=wye bus1=p28ulv25804.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=5.233242417663698 kvar=1.245355973056739 Phases=1 !yearly=com_kw_29009_pu
+
+New Load.load_p28ulv25804_2 conn=wye bus1=p28ulv25804.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=5.233242417663698 kvar=1.245355973056739 Phases=1 !yearly=com_kw_29009_pu
+
+New Load.load_p28ulv26333 conn=wye bus1=p28ulv26333.1.2.3 kV=0.48 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=48.79998818156154 kvar=11.417867998973142 Phases=3 !yearly=res_kw_599_pu
+
+New Load.load_p28ulv26356_1 conn=wye bus1=p28ulv26356.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=10.865719813725336 kvar=1.6543863727993946 Phases=1 !yearly=res_kw_3217_pu
+
+New Load.load_p28ulv26356_2 conn=wye bus1=p28ulv26356.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=10.865719813725336 kvar=1.6543863727993946 Phases=1 !yearly=res_kw_3217_pu
+
+New Load.load_p28ulv26362_1 conn=wye bus1=p28ulv26362.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.109177669729331 kvar=0.5486693289215298 Phases=1 !yearly=com_kw_29611_pu
+
+New Load.load_p28ulv26362_2 conn=wye bus1=p28ulv26362.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.109177669729331 kvar=0.5486693289215298 Phases=1 !yearly=com_kw_29611_pu
+
+New Load.load_p28ulv26372_1 conn=wye bus1=p28ulv26372.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=6.562888175161325 kvar=2.0380683005844107 Phases=1 !yearly=res_kw_10835_pu
+
+New Load.load_p28ulv26372_2 conn=wye bus1=p28ulv26372.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=6.562888175161325 kvar=2.0380683005844107 Phases=1 !yearly=res_kw_10835_pu
+
+New Load.load_p28ulv26398 conn=wye bus1=p28ulv26398.1.2.3 kV=0.48 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=73.89311656747655 kvar=21.016577403091187 Phases=3 !yearly=com_kw_15906_pu
+
+New Load.load_p28ulv26404_1 conn=wye bus1=p28ulv26404.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=1.9124808875079877 kvar=0.49876045144211356 Phases=1 !yearly=com_kw_2601_pu
+
+New Load.load_p28ulv26404_2 conn=wye bus1=p28ulv26404.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=1.9124808875079877 kvar=0.49876045144211356 Phases=1 !yearly=com_kw_2601_pu
+
+New Load.load_p28ulv26414 conn=wye bus1=p28ulv26414.1.2.3 kV=0.48 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=42.822597048092 kvar=7.962548510633433 Phases=3 !yearly=res_kw_14042_pu
+
+New Load.load_p28ulv26415_1 conn=wye bus1=p28ulv26415.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=3.951190528162533 kvar=1.5985728264300443 Phases=1 !yearly=res_kw_9781_pu
+
+New Load.load_p28ulv26415_2 conn=wye bus1=p28ulv26415.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=3.951190528162533 kvar=1.5985728264300443 Phases=1 !yearly=res_kw_9781_pu
+
+New Load.load_p28ulv26424_1 conn=wye bus1=p28ulv26424.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.0462464292006315 kvar=0.5599056660717759 Phases=1 !yearly=com_kw_1330_pu
+
+New Load.load_p28ulv26424_2 conn=wye bus1=p28ulv26424.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.0462464292006315 kvar=0.5599056660717759 Phases=1 !yearly=com_kw_1330_pu
+
+New Load.load_p28ulv26485_1 conn=wye bus1=p28ulv26485.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=3.369508330977909 kvar=0.8198608700718711 Phases=1 !yearly=com_kw_35521_pu
+
+New Load.load_p28ulv26485_2 conn=wye bus1=p28ulv26485.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=3.369508330977909 kvar=0.8198608700718711 Phases=1 !yearly=com_kw_35521_pu
+
+New Load.load_p28ulv26491 conn=wye bus1=p28ulv26491.1.2.3 kV=0.48 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=35.1712072676101 kvar=1.8545883850915634 Phases=3 !yearly=res_kw_7576_pu
+
+New Load.load_p28ulv26512_1 conn=wye bus1=p28ulv26512.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=3.785041893496626 kvar=0.5998637304176752 Phases=1 !yearly=com_kw_1262_pu
+
+New Load.load_p28ulv26512_2 conn=wye bus1=p28ulv26512.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=3.785041893496626 kvar=0.5998637304176752 Phases=1 !yearly=com_kw_1262_pu
+
+New Load.load_p28ulv26513_1 conn=wye bus1=p28ulv26513.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=3.6849315736247465 kvar=0.26435587266661026 Phases=1 !yearly=com_kw_29342_pu
+
+New Load.load_p28ulv26513_2 conn=wye bus1=p28ulv26513.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=3.6849315736247465 kvar=0.26435587266661026 Phases=1 !yearly=com_kw_29342_pu
+
+New Load.load_p28ulv26524_1 conn=wye bus1=p28ulv26524.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=9.530089199601006 kvar=3.7668133176688543 Phases=1 !yearly=res_kw_11270_pu
+
+New Load.load_p28ulv26524_2 conn=wye bus1=p28ulv26524.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=9.530089199601006 kvar=3.7668133176688543 Phases=1 !yearly=res_kw_11270_pu
+
+New Load.load_p28ulv26539_1 conn=wye bus1=p28ulv26539.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.0191431035669187 kvar=0.3818764773978318 Phases=1 !yearly=com_kw_35553_pu
+
+New Load.load_p28ulv26539_2 conn=wye bus1=p28ulv26539.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.0191431035669187 kvar=0.3818764773978318 Phases=1 !yearly=com_kw_35553_pu
+
+New Load.load_p28ulv26550_1 conn=wye bus1=p28ulv26550.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=3.940833518865919 kvar=0.11979041159967556 Phases=1 !yearly=com_kw_2007_pu
+
+New Load.load_p28ulv26550_2 conn=wye bus1=p28ulv26550.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=3.940833518865919 kvar=0.11979041159967556 Phases=1 !yearly=com_kw_2007_pu
+
+New Load.load_p28ulv26573_1 conn=wye bus1=p28ulv26573.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.7935386970404408 kvar=0.018922139033990728 Phases=1 !yearly=com_kw_16677_pu
+
+New Load.load_p28ulv26573_2 conn=wye bus1=p28ulv26573.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.7935386970404408 kvar=0.018922139033990728 Phases=1 !yearly=com_kw_16677_pu
+
+New Load.load_p28ulv26575 conn=wye bus1=p28ulv26575.1.2.3 kV=0.48 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=45.001439515392896 kvar=5.81126685914313 Phases=3 !yearly=res_kw_13445_pu
+
+New Load.load_p28ulv26579_1 conn=wye bus1=p28ulv26579.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.0873737879256953 kvar=0.4232635240746854 Phases=1 !yearly=com_kw_41678_pu
+
+New Load.load_p28ulv26579_2 conn=wye bus1=p28ulv26579.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.0873737879256953 kvar=0.4232635240746854 Phases=1 !yearly=com_kw_41678_pu
+
+New Load.load_p28ulv28401_1 conn=wye bus1=p28ulv28401.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.7146312183983485 kvar=0.11264482158049681 Phases=1 !yearly=com_kw_19893_pu
+
+New Load.load_p28ulv28401_2 conn=wye bus1=p28ulv28401.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.7146312183983485 kvar=0.11264482158049681 Phases=1 !yearly=com_kw_19893_pu
+
+New Load.load_p28ulv28406_1 conn=wye bus1=p28ulv28406.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=1.2766983969851713 kvar=0.5028612878254624 Phases=1 !yearly=res_kw_8740_pu
+
+New Load.load_p28ulv28406_2 conn=wye bus1=p28ulv28406.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=1.2766983969851713 kvar=0.5028612878254624 Phases=1 !yearly=res_kw_8740_pu
+
+New Load.load_p28ulv28413_1 conn=wye bus1=p28ulv28413.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.109177669729331 kvar=0.5486693289215298 Phases=1 !yearly=com_kw_29611_pu
+
+New Load.load_p28ulv28413_2 conn=wye bus1=p28ulv28413.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.109177669729331 kvar=0.5486693289215298 Phases=1 !yearly=com_kw_29611_pu
+
+New Load.load_p28ulv28422_1 conn=wye bus1=p28ulv28422.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=1.839175601618853 kvar=0.4557221316666175 Phases=1 !yearly=com_kw_17204_pu
+
+New Load.load_p28ulv28422_2 conn=wye bus1=p28ulv28422.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=1.839175601618853 kvar=0.4557221316666175 Phases=1 !yearly=com_kw_17204_pu
+
+New Load.load_p28ulv28430_1 conn=wye bus1=p28ulv28430.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=3.772462172331776 kvar=1.0755387210843397 Phases=1 !yearly=com_kw_29082_pu
+
+New Load.load_p28ulv28430_2 conn=wye bus1=p28ulv28430.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=3.772462172331776 kvar=1.0755387210843397 Phases=1 !yearly=com_kw_29082_pu
+
+New Load.load_p28ulv28431_1 conn=wye bus1=p28ulv28431.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.0462464292006315 kvar=0.5599056660717759 Phases=1 !yearly=com_kw_1330_pu
+
+New Load.load_p28ulv28431_2 conn=wye bus1=p28ulv28431.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.0462464292006315 kvar=0.5599056660717759 Phases=1 !yearly=com_kw_1330_pu
+
+New Load.load_p28ulv28438_1 conn=wye bus1=p28ulv28438.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.606959916668558 kvar=0.5550307077474157 Phases=1 !yearly=com_kw_33605_pu
+
+New Load.load_p28ulv28438_2 conn=wye bus1=p28ulv28438.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.606959916668558 kvar=0.5550307077474157 Phases=1 !yearly=com_kw_33605_pu
+
+New Load.load_p28ulv28454_1 conn=wye bus1=p28ulv28454.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=3.911342231959744 kvar=0.8292523799431203 Phases=1 !yearly=com_kw_29197_pu
+
+New Load.load_p28ulv28454_2 conn=wye bus1=p28ulv28454.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=3.911342231959744 kvar=0.8292523799431203 Phases=1 !yearly=com_kw_29197_pu
+
+New Load.load_p28ulv28472_1 conn=wye bus1=p28ulv28472.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=1.7837050665512109 kvar=0.44874911637056014 Phases=1 !yearly=com_kw_17443_pu
+
+New Load.load_p28ulv28472_2 conn=wye bus1=p28ulv28472.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=1.7837050665512109 kvar=0.44874911637056014 Phases=1 !yearly=com_kw_17443_pu
+
+New Load.load_p28ulv28484_1 conn=wye bus1=p28ulv28484.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=3.443583112785006 kvar=0.2576306570382033 Phases=1 !yearly=com_kw_32163_pu
+
+New Load.load_p28ulv28484_2 conn=wye bus1=p28ulv28484.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=3.443583112785006 kvar=0.2576306570382033 Phases=1 !yearly=com_kw_32163_pu
+
+New Load.load_p28ulv28488_1 conn=wye bus1=p28ulv28488.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.2167250892906645 kvar=0.5534364726692191 Phases=1 !yearly=com_kw_39658_pu
+
+New Load.load_p28ulv28488_2 conn=wye bus1=p28ulv28488.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.2167250892906645 kvar=0.5534364726692191 Phases=1 !yearly=com_kw_39658_pu
+
+New Load.load_p28ulv28499_1 conn=wye bus1=p28ulv28499.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.340123280881575 kvar=0.28306337277173615 Phases=1 !yearly=com_kw_33792_pu
+
+New Load.load_p28ulv28499_2 conn=wye bus1=p28ulv28499.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.340123280881575 kvar=0.28306337277173615 Phases=1 !yearly=com_kw_33792_pu
+
+New Load.load_p28ulv28511_1 conn=wye bus1=p28ulv28511.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=3.025577912376512 kvar=0.6479907691217454 Phases=1 !yearly=com_kw_35494_pu
+
+New Load.load_p28ulv28511_2 conn=wye bus1=p28ulv28511.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=3.025577912376512 kvar=0.6479907691217454 Phases=1 !yearly=com_kw_35494_pu
+
+New Load.load_p28ulv28524_1 conn=wye bus1=p28ulv28524.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.6009666033769583 kvar=0.30487867399122176 Phases=1 !yearly=com_kw_33842_pu
+
+New Load.load_p28ulv28524_2 conn=wye bus1=p28ulv28524.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.6009666033769583 kvar=0.30487867399122176 Phases=1 !yearly=com_kw_33842_pu
+
+New Load.load_p28ulv28533_1 conn=wye bus1=p28ulv28533.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.4338345355960285 kvar=0.6897258691112231 Phases=1 !yearly=com_kw_1320_pu
+
+New Load.load_p28ulv28533_2 conn=wye bus1=p28ulv28533.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.4338345355960285 kvar=0.6897258691112231 Phases=1 !yearly=com_kw_1320_pu
+
+New Load.load_p28ulv28537_1 conn=wye bus1=p28ulv28537.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=6.1140699739098325 kvar=0.0691290550182753 Phases=1 !yearly=com_kw_33846_pu
+
+New Load.load_p28ulv28537_2 conn=wye bus1=p28ulv28537.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=6.1140699739098325 kvar=0.0691290550182753 Phases=1 !yearly=com_kw_33846_pu
+
+New Load.load_p28ulv28543_1 conn=wye bus1=p28ulv28543.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=1.839175601618853 kvar=0.4557221316666175 Phases=1 !yearly=com_kw_17204_pu
+
+New Load.load_p28ulv28543_2 conn=wye bus1=p28ulv28543.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=1.839175601618853 kvar=0.4557221316666175 Phases=1 !yearly=com_kw_17204_pu
+
+New Load.load_p28ulv28544_1 conn=wye bus1=p28ulv28544.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=3.2224429351013395 kvar=0.6126885357762705 Phases=1 !yearly=com_kw_33205_pu
+
+New Load.load_p28ulv28544_2 conn=wye bus1=p28ulv28544.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=3.2224429351013395 kvar=0.6126885357762705 Phases=1 !yearly=com_kw_33205_pu
+
+New Load.load_p28ulv28549_1 conn=wye bus1=p28ulv28549.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=1.7684532076448627 kvar=0.7534217786639859 Phases=1 !yearly=res_kw_1517_pu
+
+New Load.load_p28ulv28549_2 conn=wye bus1=p28ulv28549.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=1.7684532076448627 kvar=0.7534217786639859 Phases=1 !yearly=res_kw_1517_pu
+
+New Load.load_p28ulv28604_1 conn=wye bus1=p28ulv28604.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=3.060939667694842 kvar=0.018922139033990728 Phases=1 !yearly=com_kw_39425_pu
+
+New Load.load_p28ulv28604_2 conn=wye bus1=p28ulv28604.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=3.060939667694842 kvar=0.018922139033990728 Phases=1 !yearly=com_kw_39425_pu
+
+New Load.load_p28ulv28617_1 conn=wye bus1=p28ulv28617.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.4820522770729507 kvar=0.1125677048872814 Phases=1 !yearly=com_kw_21144_pu
+
+New Load.load_p28ulv28617_2 conn=wye bus1=p28ulv28617.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.4820522770729507 kvar=0.1125677048872814 Phases=1 !yearly=com_kw_21144_pu
+
+New Load.load_p28ulv28624_1 conn=wye bus1=p28ulv28624.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=3.7865903007860364 kvar=0.8434944059225316 Phases=1 !yearly=com_kw_29164_pu
+
+New Load.load_p28ulv28624_2 conn=wye bus1=p28ulv28624.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=3.7865903007860364 kvar=0.8434944059225316 Phases=1 !yearly=com_kw_29164_pu
+
+New Load.load_p28ulv28625_1 conn=wye bus1=p28ulv28625.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=5.595245310304418 kvar=1.345808577543069 Phases=1 !yearly=res_kw_6292_pu
+
+New Load.load_p28ulv28625_2 conn=wye bus1=p28ulv28625.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=5.595245310304418 kvar=1.345808577543069 Phases=1 !yearly=res_kw_6292_pu
+
+New Load.load_p28ulv28643_1 conn=wye bus1=p28ulv28643.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.506777523971763 kvar=0.6728964006005869 Phases=1 !yearly=com_kw_21014_pu
+
+New Load.load_p28ulv28643_2 conn=wye bus1=p28ulv28643.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.506777523971763 kvar=0.6728964006005869 Phases=1 !yearly=com_kw_21014_pu
+
+New Load.load_p28ulv29424_1 conn=wye bus1=p28ulv29424.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.781684048838155 kvar=0.7643971440160673 Phases=1 !yearly=com_kw_2536_pu
+
+New Load.load_p28ulv29424_2 conn=wye bus1=p28ulv29424.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.781684048838155 kvar=0.7643971440160673 Phases=1 !yearly=com_kw_2536_pu
+
+New Load.load_p28ulv29429_1 conn=wye bus1=p28ulv29429.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.450352178701407 kvar=0.6948787540367383 Phases=1 !yearly=com_kw_18294_pu
+
+New Load.load_p28ulv29429_2 conn=wye bus1=p28ulv29429.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.450352178701407 kvar=0.6948787540367383 Phases=1 !yearly=com_kw_18294_pu
+
+New Load.load_p28ulv29446_1 conn=wye bus1=p28ulv29446.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.1976836424562762 kvar=0.1051220183522544 Phases=1 !yearly=com_kw_17157_pu
+
+New Load.load_p28ulv29446_2 conn=wye bus1=p28ulv29446.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.1976836424562762 kvar=0.1051220183522544 Phases=1 !yearly=com_kw_17157_pu
+
+New Load.load_p28ulv29469_1 conn=wye bus1=p28ulv29469.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=3.344567479254364 kvar=0.6658816257517379 Phases=1 !yearly=com_kw_16631_pu
+
+New Load.load_p28ulv29469_2 conn=wye bus1=p28ulv29469.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=3.344567479254364 kvar=0.6658816257517379 Phases=1 !yearly=com_kw_16631_pu
+
+New Load.load_p28ulv29472_1 conn=wye bus1=p28ulv29472.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.419059308693737 kvar=0.6911648224012601 Phases=1 !yearly=com_kw_17083_pu
+
+New Load.load_p28ulv29472_2 conn=wye bus1=p28ulv29472.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.419059308693737 kvar=0.6911648224012601 Phases=1 !yearly=com_kw_17083_pu
+
+New Load.load_p28ulv29498_1 conn=wye bus1=p28ulv29498.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=3.528223782319545 kvar=0.5819289308086721 Phases=1 !yearly=com_kw_29376_pu
+
+New Load.load_p28ulv29498_2 conn=wye bus1=p28ulv29498.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=3.528223782319545 kvar=0.5819289308086721 Phases=1 !yearly=com_kw_29376_pu
+
+New Load.load_p28ulv29505_1 conn=wye bus1=p28ulv29505.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=7.8623407394536935 kvar=0.5578331106170566 Phases=1 !yearly=com_kw_17095_pu
+
+New Load.load_p28ulv29505_2 conn=wye bus1=p28ulv29505.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=7.8623407394536935 kvar=0.5578331106170566 Phases=1 !yearly=com_kw_17095_pu
+
+New Load.load_p28ulv29549_1 conn=wye bus1=p28ulv29549.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.331677082668279 kvar=0.10958157805626084 Phases=1 !yearly=com_kw_16830_pu
+
+New Load.load_p28ulv29549_2 conn=wye bus1=p28ulv29549.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.331677082668279 kvar=0.10958157805626084 Phases=1 !yearly=com_kw_16830_pu
+
+New Load.load_p28ulv29614_1 conn=wye bus1=p28ulv29614.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=1.839175601618853 kvar=0.4557221316666175 Phases=1 !yearly=com_kw_17204_pu
+
+New Load.load_p28ulv29614_2 conn=wye bus1=p28ulv29614.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=1.839175601618853 kvar=0.4557221316666175 Phases=1 !yearly=com_kw_17204_pu
+
+New Load.load_p28ulv29663_1 conn=wye bus1=p28ulv29663.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.767626131546221 kvar=0.44781696920183106 Phases=1 !yearly=com_kw_1102_pu
+
+New Load.load_p28ulv29663_2 conn=wye bus1=p28ulv29663.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.767626131546221 kvar=0.44781696920183106 Phases=1 !yearly=com_kw_1102_pu
+
+New Load.load_p28ulv29773_1 conn=wye bus1=p28ulv29773.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.9592297242003984 kvar=0.32182160792433295 Phases=1 !yearly=com_kw_2322_pu
+
+New Load.load_p28ulv29773_2 conn=wye bus1=p28ulv29773.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.9592297242003984 kvar=0.32182160792433295 Phases=1 !yearly=com_kw_2322_pu
+
+New Load.load_p28ulv29862_1 conn=wye bus1=p28ulv29862.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.5379071176927064 kvar=0.7168723502737137 Phases=1 !yearly=com_kw_2606_pu
+
+New Load.load_p28ulv29862_2 conn=wye bus1=p28ulv29862.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.5379071176927064 kvar=0.7168723502737137 Phases=1 !yearly=com_kw_2606_pu
+
+New Load.load_p28ulv29904_1 conn=wye bus1=p28ulv29904.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=1.9102523936464706 kvar=0.36753422396224456 Phases=1 !yearly=com_kw_22637_pu
+
+New Load.load_p28ulv29904_2 conn=wye bus1=p28ulv29904.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=1.9102523936464706 kvar=0.36753422396224456 Phases=1 !yearly=com_kw_22637_pu
+
+New Load.load_p28ulv29958_1 conn=wye bus1=p28ulv29958.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=1.839175601618853 kvar=0.4557221316666175 Phases=1 !yearly=com_kw_17204_pu
+
+New Load.load_p28ulv29958_2 conn=wye bus1=p28ulv29958.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=1.839175601618853 kvar=0.4557221316666175 Phases=1 !yearly=com_kw_17204_pu
+
+New Load.load_p28ulv31147_1 conn=wye bus1=p28ulv31147.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.6277722044378486 kvar=0.6969686665668667 Phases=1 !yearly=com_kw_29191_pu
+
+New Load.load_p28ulv31147_2 conn=wye bus1=p28ulv31147.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.6277722044378486 kvar=0.6969686665668667 Phases=1 !yearly=com_kw_29191_pu
+
+New Load.load_p28ulv31163_1 conn=wye bus1=p28ulv31163.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.340123280881575 kvar=0.28306337277173615 Phases=1 !yearly=com_kw_33792_pu
+
+New Load.load_p28ulv31163_2 conn=wye bus1=p28ulv31163.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.340123280881575 kvar=0.28306337277173615 Phases=1 !yearly=com_kw_33792_pu
+
+New Load.load_p28ulv31384_1 conn=wye bus1=p28ulv31384.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=1.839175601618853 kvar=0.4557221316666175 Phases=1 !yearly=com_kw_17204_pu
+
+New Load.load_p28ulv31384_2 conn=wye bus1=p28ulv31384.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=1.839175601618853 kvar=0.4557221316666175 Phases=1 !yearly=com_kw_17204_pu
+
+New Load.load_p28ulv31442_1 conn=wye bus1=p28ulv31442.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=3.56773081582568 kvar=0.025560880160820944 Phases=1 !yearly=com_kw_16229_pu
+
+New Load.load_p28ulv31442_2 conn=wye bus1=p28ulv31442.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=3.56773081582568 kvar=0.025560880160820944 Phases=1 !yearly=com_kw_16229_pu
+
+New Load.load_p28ulv31495_1 conn=wye bus1=p28ulv31495.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.506777523971763 kvar=0.6728964006005869 Phases=1 !yearly=com_kw_21014_pu
+
+New Load.load_p28ulv31495_2 conn=wye bus1=p28ulv31495.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.506777523971763 kvar=0.6728964006005869 Phases=1 !yearly=com_kw_21014_pu
+
+New Load.load_p28ulv31617_1 conn=wye bus1=p28ulv31617.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.602187576732413 kvar=0.457393852963912 Phases=1 !yearly=com_kw_41658_pu
+
+New Load.load_p28ulv31617_2 conn=wye bus1=p28ulv31617.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.602187576732413 kvar=0.457393852963912 Phases=1 !yearly=com_kw_41658_pu
+
+New Load.load_p28ulv31633_1 conn=wye bus1=p28ulv31633.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=3.895690985965537 kvar=0.9400572249599172 Phases=1 !yearly=com_kw_22691_pu
+
+New Load.load_p28ulv31633_2 conn=wye bus1=p28ulv31633.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=3.895690985965537 kvar=0.9400572249599172 Phases=1 !yearly=com_kw_22691_pu
+
+New Load.load_p28ulv38655_1 conn=wye bus1=p28ulv38655.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.8911399852388224 kvar=0.6742140281283158 Phases=1 !yearly=com_kw_34437_pu
+
+New Load.load_p28ulv38655_2 conn=wye bus1=p28ulv38655.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.8911399852388224 kvar=0.6742140281283158 Phases=1 !yearly=com_kw_34437_pu
+
+New Load.load_p28ulv38719_1 conn=wye bus1=p28ulv38719.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=1.9488456441115172 kvar=0.029623088264837956 Phases=1 !yearly=res_kw_10332_pu
+
+New Load.load_p28ulv38719_2 conn=wye bus1=p28ulv38719.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=1.9488456441115172 kvar=0.029623088264837956 Phases=1 !yearly=res_kw_10332_pu
+
+New Load.load_p28ulv38739_1 conn=wye bus1=p28ulv38739.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.419059308693737 kvar=0.6911648224012601 Phases=1 !yearly=com_kw_17083_pu
+
+New Load.load_p28ulv38739_2 conn=wye bus1=p28ulv38739.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.419059308693737 kvar=0.6911648224012601 Phases=1 !yearly=com_kw_17083_pu
+
+New Load.load_p28ulv38766_1 conn=wye bus1=p28ulv38766.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.501244965400895 kvar=0.7307193315393806 Phases=1 !yearly=com_kw_16483_pu
+
+New Load.load_p28ulv38766_2 conn=wye bus1=p28ulv38766.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.501244965400895 kvar=0.7307193315393806 Phases=1 !yearly=com_kw_16483_pu
+
+New Load.load_p28ulv38771_1 conn=wye bus1=p28ulv38771.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=8.301570551763293 kvar=1.6189347719594622 Phases=1 !yearly=res_kw_6091_pu
+
+New Load.load_p28ulv38771_2 conn=wye bus1=p28ulv38771.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=8.301570551763293 kvar=1.6189347719594622 Phases=1 !yearly=res_kw_6091_pu
+
+New Load.load_p28ulv38822_1 conn=wye bus1=p28ulv38822.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.2812592289407214 kvar=0.10195444264436576 Phases=1 !yearly=res_kw_5212_pu
+
+New Load.load_p28ulv38822_2 conn=wye bus1=p28ulv38822.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.2812592289407214 kvar=0.10195444264436576 Phases=1 !yearly=res_kw_5212_pu
+
+New Load.load_p28ulv38841_1 conn=wye bus1=p28ulv38841.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.3415535522892696 kvar=0.7028882119915548 Phases=1 !yearly=com_kw_16586_pu
+
+New Load.load_p28ulv38841_2 conn=wye bus1=p28ulv38841.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.3415535522892696 kvar=0.7028882119915548 Phases=1 !yearly=com_kw_16586_pu
+
+New Load.load_p28ulv38872_1 conn=wye bus1=p28ulv38872.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.359977223622412 kvar=0.2969054470018346 Phases=1 !yearly=com_kw_33783_pu
+
+New Load.load_p28ulv38872_2 conn=wye bus1=p28ulv38872.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.359977223622412 kvar=0.2969054470018346 Phases=1 !yearly=com_kw_33783_pu
+
+New Load.load_p28ulv38883_1 conn=wye bus1=p28ulv38883.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.6254798786649576 kvar=0.2529249421512141 Phases=1 !yearly=com_kw_16981_pu
+
+New Load.load_p28ulv38883_2 conn=wye bus1=p28ulv38883.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.6254798786649576 kvar=0.2529249421512141 Phases=1 !yearly=com_kw_16981_pu
+
+New Load.load_p28ulv38949_1 conn=wye bus1=p28ulv38949.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.445994317964332 kvar=0.8597073331859654 Phases=1 !yearly=res_kw_13148_pu
+
+New Load.load_p28ulv38949_2 conn=wye bus1=p28ulv38949.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.445994317964332 kvar=0.8597073331859654 Phases=1 !yearly=res_kw_13148_pu
+
+New Load.load_p28ulv38970_1 conn=wye bus1=p28ulv38970.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.1342890945582846 kvar=0.10427649324668606 Phases=1 !yearly=com_kw_32198_pu
+
+New Load.load_p28ulv38970_2 conn=wye bus1=p28ulv38970.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.1342890945582846 kvar=0.10427649324668606 Phases=1 !yearly=com_kw_32198_pu
+
+New Load.load_p28ulv39004_1 conn=wye bus1=p28ulv39004.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=3.034619768635641 kvar=1.1190492471185933 Phases=1 !yearly=res_kw_12807_pu
+
+New Load.load_p28ulv39004_2 conn=wye bus1=p28ulv39004.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=3.034619768635641 kvar=1.1190492471185933 Phases=1 !yearly=res_kw_12807_pu
+
+New Load.load_p28ulv39013_1 conn=wye bus1=p28ulv39013.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.2084970230804295 kvar=0.6059929399999135 Phases=1 !yearly=com_kw_16241_pu
+
+New Load.load_p28ulv39013_2 conn=wye bus1=p28ulv39013.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.2084970230804295 kvar=0.6059929399999135 Phases=1 !yearly=com_kw_16241_pu
+
+New Load.load_p28ulv39033_1 conn=wye bus1=p28ulv39033.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=1.6323867069620042 kvar=0.40255171211713736 Phases=1 !yearly=com_kw_17825_pu
+
+New Load.load_p28ulv39033_2 conn=wye bus1=p28ulv39033.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=1.6323867069620042 kvar=0.40255171211713736 Phases=1 !yearly=com_kw_17825_pu
+
+New Load.load_p28ulv39050_1 conn=wye bus1=p28ulv39050.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=5.659022856474639 kvar=0.8650930652396721 Phases=1 !yearly=com_kw_33835_pu
+
+New Load.load_p28ulv39050_2 conn=wye bus1=p28ulv39050.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=5.659022856474639 kvar=0.8650930652396721 Phases=1 !yearly=com_kw_33835_pu
+
+New Load.load_p28ulv39215_1 conn=wye bus1=p28ulv39215.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=0.962510599658346 kvar=0.39927803268124257 Phases=1 !yearly=res_kw_7255_pu
+
+New Load.load_p28ulv39215_2 conn=wye bus1=p28ulv39215.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=0.962510599658346 kvar=0.39927803268124257 Phases=1 !yearly=res_kw_7255_pu
+
+New Load.load_p28ulv39250_1 conn=wye bus1=p28ulv39250.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.5202593896091736 kvar=0.6973445820856009 Phases=1 !yearly=com_kw_1115_pu
+
+New Load.load_p28ulv39250_2 conn=wye bus1=p28ulv39250.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.5202593896091736 kvar=0.6973445820856009 Phases=1 !yearly=com_kw_1115_pu
+
+New Load.load_p28ulv39281_1 conn=wye bus1=p28ulv39281.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.559543722017981 kvar=0.7101531402521069 Phases=1 !yearly=com_kw_1714_pu
+
+New Load.load_p28ulv39281_2 conn=wye bus1=p28ulv39281.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.559543722017981 kvar=0.7101531402521069 Phases=1 !yearly=com_kw_1714_pu
+
+New Load.load_p28ulv39328_1 conn=wye bus1=p28ulv39328.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.290544136396002 kvar=0.6122151063053857 Phases=1 !yearly=com_kw_1777_pu
+
+New Load.load_p28ulv39328_2 conn=wye bus1=p28ulv39328.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.290544136396002 kvar=0.6122151063053857 Phases=1 !yearly=com_kw_1777_pu
+
+New Load.load_p28ulv39344_1 conn=wye bus1=p28ulv39344.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.340123280881575 kvar=0.28306337277173615 Phases=1 !yearly=com_kw_33792_pu
+
+New Load.load_p28ulv39344_2 conn=wye bus1=p28ulv39344.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.340123280881575 kvar=0.28306337277173615 Phases=1 !yearly=com_kw_33792_pu
+
+New Load.load_p28ulv39363_1 conn=wye bus1=p28ulv39363.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.5668869117989415 kvar=0.5951466628222033 Phases=1 !yearly=com_kw_41421_pu
+
+New Load.load_p28ulv39363_2 conn=wye bus1=p28ulv39363.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.5668869117989415 kvar=0.5951466628222033 Phases=1 !yearly=com_kw_41421_pu
+
+New Load.load_p28ulv39378_1 conn=wye bus1=p28ulv39378.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=1.6972695460473382 kvar=0.4185228864103675 Phases=1 !yearly=com_kw_17229_pu
+
+New Load.load_p28ulv39378_2 conn=wye bus1=p28ulv39378.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=1.6972695460473382 kvar=0.4185228864103675 Phases=1 !yearly=com_kw_17229_pu
+
+New Load.load_p28ulv39406_1 conn=wye bus1=p28ulv39406.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=1.1211291861785844 kvar=0.48375648015097145 Phases=1 !yearly=res_kw_7362_pu
+
+New Load.load_p28ulv39406_2 conn=wye bus1=p28ulv39406.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=1.1211291861785844 kvar=0.48375648015097145 Phases=1 !yearly=res_kw_7362_pu
+
+New Load.load_p28ulv39476_1 conn=wye bus1=p28ulv39476.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.2769071780208345 kvar=0.4029118207034132 Phases=1 !yearly=com_kw_29321_pu
+
+New Load.load_p28ulv39476_2 conn=wye bus1=p28ulv39476.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.2769071780208345 kvar=0.4029118207034132 Phases=1 !yearly=com_kw_29321_pu
+
+New Load.load_p28ulv39536_1 conn=wye bus1=p28ulv39536.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=1.1427818095792333 kvar=0.5033588044558321 Phases=1 !yearly=res_kw_10152_pu
+
+New Load.load_p28ulv39536_2 conn=wye bus1=p28ulv39536.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=1.1427818095792333 kvar=0.5033588044558321 Phases=1 !yearly=res_kw_10152_pu
+
+New Load.load_p28ulv42878_1 conn=wye bus1=p28ulv42878.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.781684048838155 kvar=0.7643971440160673 Phases=1 !yearly=com_kw_2536_pu
+
+New Load.load_p28ulv42878_2 conn=wye bus1=p28ulv42878.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.781684048838155 kvar=0.7643971440160673 Phases=1 !yearly=com_kw_2536_pu
+
+New Load.load_p28ulv42897_1 conn=wye bus1=p28ulv42897.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=1.7017294192196202 kvar=0.31733576760167176 Phases=1 !yearly=com_kw_17644_pu
+
+New Load.load_p28ulv42897_2 conn=wye bus1=p28ulv42897.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=1.7017294192196202 kvar=0.31733576760167176 Phases=1 !yearly=com_kw_17644_pu
+
+New Load.load_p28ulv42958_1 conn=wye bus1=p28ulv42958.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=1.794005533851084 kvar=0.6855099409421886 Phases=1 !yearly=res_kw_8268_pu
+
+New Load.load_p28ulv42958_2 conn=wye bus1=p28ulv42958.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=1.794005533851084 kvar=0.6855099409421886 Phases=1 !yearly=res_kw_8268_pu
+
+New Load.load_p28ulv42976_1 conn=wye bus1=p28ulv42976.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=3.7955530160091877 kvar=0.9939393246787002 Phases=1 !yearly=com_kw_17799_pu
+
+New Load.load_p28ulv42976_2 conn=wye bus1=p28ulv42976.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=3.7955530160091877 kvar=0.9939393246787002 Phases=1 !yearly=com_kw_17799_pu
+
+New Load.load_p28ulv44292_1 conn=wye bus1=p28ulv44292.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=1.9102523936464706 kvar=0.36753422396224456 Phases=1 !yearly=com_kw_22637_pu
+
+New Load.load_p28ulv44292_2 conn=wye bus1=p28ulv44292.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=1.9102523936464706 kvar=0.36753422396224456 Phases=1 !yearly=com_kw_22637_pu
+
+New Load.load_p28ulv44463_1 conn=wye bus1=p28ulv44463.1 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.0191431035669187 kvar=0.3818764773978318 Phases=1 !yearly=com_kw_35553_pu
+
+New Load.load_p28ulv44463_2 conn=wye bus1=p28ulv44463.2 kV=0.12 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=2.0191431035669187 kvar=0.3818764773978318 Phases=1 !yearly=com_kw_35553_pu
+
+New Load.load_p28ulv46328 conn=wye bus1=p28ulv46328.1.2.3 kV=0.48 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=26.702252093000016 kvar=7.356536997721393 Phases=3 !yearly=res_kw_141_pu
+

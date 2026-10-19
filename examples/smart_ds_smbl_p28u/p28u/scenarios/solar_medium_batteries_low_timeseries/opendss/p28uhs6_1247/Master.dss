@@ -1,0 +1,46 @@
+Clear
+
+New Circuit.substation_p28uhs6_69 bus1=p28uhs6_69 pu=1.0 basekV=69.0 R1=1e-05 X1=1e-05 R0=1e-05 X0=1e-05
+
+Redirect LineCodes.dss
+Redirect p28uhs6_1247--p28udt10249/LineCodes.dss
+Redirect p28uhs6_1247--p28udt6248/LineCodes.dss
+Redirect p28uhs6_1247--p28udt6709/LineCodes.dss
+Redirect p28uhs6_1247--p28udt6743/LineCodes.dss
+Redirect Lines.dss
+Redirect p28uhs6_1247--p28udt10249/Lines.dss
+Redirect p28uhs6_1247--p28udt6248/Lines.dss
+Redirect p28uhs6_1247--p28udt6709/Lines.dss
+Redirect p28uhs6_1247--p28udt6743/Lines.dss
+Redirect Transformers.dss
+Redirect p28uhs6_1247--p28udt10249/Transformers.dss
+Redirect p28uhs6_1247--p28udt6248/Transformers.dss
+Redirect p28uhs6_1247--p28udt6709/Transformers.dss
+Redirect p28uhs6_1247--p28udt6743/Transformers.dss
+Redirect Regulators.dss
+Redirect p28uhs6_1247--p28udt10249/Regulators.dss
+Redirect p28uhs6_1247--p28udt6248/Regulators.dss
+Redirect p28uhs6_1247--p28udt6709/Regulators.dss
+Redirect p28uhs6_1247--p28udt6743/Regulators.dss
+Redirect p28uhs6_1247--p28udt10249/Loads.dss
+Redirect p28uhs6_1247--p28udt6248/Loads.dss
+Redirect p28uhs6_1247--p28udt6709/Loads.dss
+Redirect p28uhs6_1247--p28udt6743/Loads.dss
+Redirect p28uhs6_1247--p28udt10249/Storage.dss
+Redirect p28uhs6_1247--p28udt6248/Storage.dss
+Redirect p28uhs6_1247--p28udt6709/Storage.dss
+Redirect p28uhs6_1247--p28udt6743/Storage.dss
+Redirect p28uhs6_1247--p28udt10249/PVSystems.dss
+Redirect p28uhs6_1247--p28udt6248/PVSystems.dss
+Redirect p28uhs6_1247--p28udt6709/PVSystems.dss
+Redirect p28uhs6_1247--p28udt6743/PVSystems.dss
+new monitor.m1 element=Line.sb10_p28uhs6_1247_349 mode=0
+new monitor.m2 element=Line.sb10_p28uhs6_1247_349 mode=1
+new energymeter.m3 Line.sb10_p28uhs6_1247_349
+
+Set Voltagebases=[0.12, 0.208, 0.24, 0.48, 7.2, 12.47, 69.0]
+
+Calcvoltagebases
+
+Buscoords Buscoords.dss
+set maxcontroliter=50

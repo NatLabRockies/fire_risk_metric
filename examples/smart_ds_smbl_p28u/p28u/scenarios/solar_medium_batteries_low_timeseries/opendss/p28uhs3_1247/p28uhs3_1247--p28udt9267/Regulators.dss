@@ -1,0 +1,4 @@
+New RegControl.reg_creguladortension(r:p28udt4127-p28udt4143) transformer=trans_reg_creguladortension(r:p28udt4127-p28udt4143) winding=2 ptratio=59.99631547328862 band=2.4 vreg = 123.60000000000001
+
+New RegControl.addreg_p28udt9267 transformer=trans_addreg_p28udt9267 winding=2 ptratio=59.99631547328862 band=2.4 vreg = 123.60000000000001
+
