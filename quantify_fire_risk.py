@@ -93,7 +93,7 @@ def get_dist_fire_traits(power_model, bus_coords):
     dist_fire_components.to_csv('dist_risk_scores.csv', index=False)
     return dist_fire_components
 
-def get_dist_fire_locations(power_model_dir):
+def get_dist_fire_locations(power_model_dir, region_name = 'p28u'):
     # parse the files and select only the bay area: as defined as
     # north to Sacremento: 38.5816N 121.4944W, 
     # south and east to Fresno: 36.7378N 119.7871W, 
@@ -101,10 +101,11 @@ def get_dist_fire_locations(power_model_dir):
     dist_coord_frame = pyproj.Proj(init='epsg:32610')
     lon_lat_coord_frame = pyproj.Proj(init='epsg:5070')
     dist_fire_components = {} # add something to read all from model
-    region_name = str(power_model_dir).split('/')[-1]
-    if region_name == str(power_model_dir):
-        dir_char = "\\"
-        region_name = str(power_model_dir).split(dir_char)[-1]
+    bus_coords = {}
+    dir_char = "\\"
+    #region_name = str(power_model_dir).split('/')[-1]
+    #if region_name == str(power_model_dir):
+    #    region_name = str(power_model_dir).split(dir_char)[-1]
     print(f'getting coordinates from {region_name} at {power_model_dir}')
     sub_regions = []
     potential_sub_regions = power_model_dir.glob('*')
@@ -117,7 +118,6 @@ def get_dist_fire_locations(power_model_dir):
             bus_file = (folder / "DSSfiles/Buscoords.dss")
             linecode_file = (folder / "DSSfiles/LineCodes.dss")
             # read in bus coordinates
-            bus_coords = {}
             with open(bus_file, 'r') as bf:
                 bus_coord_lines = bf.readlines()
                 for line in bus_coord_lines:
@@ -438,7 +438,7 @@ def get_interrelated_risk(terrain_risks, dist_risks, soil_risk, lightning_risk, 
         all_risks[dfr['feeder']]['coords'] = dfr['coords']
     return all_risks
 
-def quantify_fire_risk(power_model_risk, fire_gis_dir, soil_file, soil_moisture_file, veg_file, lightning_file, burnprob_file, temperature_file, wind_file):
+def quantify_fire_risk(power_model_risk, power_model_dir, fire_gis_dir, soil_file, soil_moisture_file, veg_file, lightning_file, burnprob_file, temperature_file, wind_file, region_name):
     # start with a fire risk of zero and slowly add to that
     total_fire_risk = 0
     # initialize list of terrain traits
@@ -447,7 +447,7 @@ def quantify_fire_risk(power_model_risk, fire_gis_dir, soil_file, soil_moisture_
     # load the power model
     #power_model = odd.run_command(str(power_model_dir / 'DSSfiles/Master.dss'))
     # get locations for power system components and assign locations to fire risk traits
-    dist_fire_components, bus_coords = get_dist_fire_locations(power_model_dir)
+    dist_fire_components, bus_coords = get_dist_fire_locations(power_model_dir, region_name)
     # get power model traits according to metric
     dist_fire_components = get_dist_fire_traits(power_model_risk, bus_coords)
     # get locations for fire susceptible attributes
@@ -458,13 +458,14 @@ def quantify_fire_risk(power_model_risk, fire_gis_dir, soil_file, soil_moisture_
     return total_fire_risk
 
 if __name__=="__main__":
-    power_model_dir = pathlib.Path("p28u")
+    power_model_dir = pathlib.Path("examples/smart_ds_smbl_p28u/p28u/scenarios/solar_medium_batteries_low_timeseries/opendss")
+    region_name = 'p28u'
     #"P1U/solar_medium_batteries_low_timeseries/DSSfiles/p1uhs0_1247"
     #sys.argv[1]
     if isinstance(power_model_dir, str):
         power_model_dir = pathlib.Path(power_model_dir)
     power_model_risk = 'smbl_summary.csv'
-    fire_gis_dir = sys.argv[2]
+    fire_gis_dir = 'examples/smbl_p28u_gis' #sys.argv[2]
     if isinstance(fire_gis_dir, str):
         fire_gis_dir = pathlib.Path(fire_gis_dir)
     soil_file = 'srdb-data-V5.csv'
@@ -482,6 +483,6 @@ if __name__=="__main__":
     veg_file = fire_gis_dir / veg_file
     lightning_file = fire_gis_dir / lightning_file
     burnprob_file = fire_gis_dir / burnprob_file
-    total_fire_risk = quantify_fire_risk(power_model_risk, fire_gis_dir, soil_file, soil_moisture_file, veg_file, lightning_file, burnprob_file, temperature_file, wind_file)
+    total_fire_risk = quantify_fire_risk(power_model_risk, power_model_dir, fire_gis_dir, soil_file, soil_moisture_file, veg_file, lightning_file, burnprob_file, temperature_file, wind_file, region_name)
     print(total_fire_risk)
 

@@ -11,3 +11,9 @@ openpyxl>=3.1.5
 pyproj>=3.7.2
 opendssdirect>=0.9.4
 # opendssdirect may need to be installed with: pip install "OpenDSSDirect.py[extras]"
+
+# -- for quantifying the risk -- 
+pyarrow>=24.0.0
+geojson>=3.3.0
+scikit-learn>=1.9.1
+
