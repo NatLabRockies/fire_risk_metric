@@ -1,0 +1,4 @@
+New Load.load_p28ulv14108 conn=wye bus1=p28ulv14108.1.2.3 kV=0.48 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=7.369602121592599 kvar=1.3231232074222237 Phases=3 !yearly=res_kw_7922_pu
+
+New Load.load_p28ulv14127 conn=wye bus1=p28ulv14127.1.2.3 kV=0.48 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=1.4110555300527428 kvar=0.48060177835323453 Phases=3 !yearly=res_kw_6768_pu
+

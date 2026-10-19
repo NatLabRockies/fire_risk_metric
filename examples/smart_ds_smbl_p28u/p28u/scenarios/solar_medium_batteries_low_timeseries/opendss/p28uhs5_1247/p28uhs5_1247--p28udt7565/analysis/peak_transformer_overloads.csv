@@ -1,0 +1,6 @@
+Loading (p.u.),Name,Bus and Phases,kVA,Number of Phases
+1.0215095468580582,Transformer.tr(r:p28udt5031-p28udt5031lv),p28udt5031.2,50.0,1
+1.1453259314942286,Transformer.tr(r:p28udt10394-p28udt10394lv),p28udt10394,100.0,3
+1.5540721171761582,Transformer.tr(r:p28udt7860-p28udt7860lv),p28udt7860.3,25.0,1
+2.5567270290334076,Transformer.tr(r:p28udt7852-p28udt7852lv),p28udt7852.1,25.0,1
+2.7609807084333013,Transformer.tr(r:p28udt7854-p28udt7854lv),p28udt7854.2,25.0,1

@@ -1,0 +1,58 @@
+Clear
+
+New Circuit.substation_p28uhs5_69 bus1=p28uhs5_69 pu=1.0 basekV=69.0 R1=1e-05 X1=1e-05 R0=1e-05 X0=1e-05
+
+Redirect LineCodes.dss
+Redirect p28uhs5_1247--p28udt10850/LineCodes.dss
+Redirect p28uhs5_1247--p28udt7478/LineCodes.dss
+Redirect p28uhs5_1247--p28udt7557/LineCodes.dss
+Redirect p28uhs5_1247--p28udt7564/LineCodes.dss
+Redirect p28uhs5_1247--p28udt7565/LineCodes.dss
+Redirect p28uhs5_1247--p28udt7571/LineCodes.dss
+Redirect Lines.dss
+Redirect p28uhs5_1247--p28udt10850/Lines.dss
+Redirect p28uhs5_1247--p28udt7478/Lines.dss
+Redirect p28uhs5_1247--p28udt7557/Lines.dss
+Redirect p28uhs5_1247--p28udt7564/Lines.dss
+Redirect p28uhs5_1247--p28udt7565/Lines.dss
+Redirect p28uhs5_1247--p28udt7571/Lines.dss
+Redirect Transformers.dss
+Redirect p28uhs5_1247--p28udt10850/Transformers.dss
+Redirect p28uhs5_1247--p28udt7478/Transformers.dss
+Redirect p28uhs5_1247--p28udt7557/Transformers.dss
+Redirect p28uhs5_1247--p28udt7564/Transformers.dss
+Redirect p28uhs5_1247--p28udt7565/Transformers.dss
+Redirect p28uhs5_1247--p28udt7571/Transformers.dss
+Redirect Regulators.dss
+Redirect p28uhs5_1247--p28udt10850/Regulators.dss
+Redirect p28uhs5_1247--p28udt7478/Regulators.dss
+Redirect p28uhs5_1247--p28udt7557/Regulators.dss
+Redirect p28uhs5_1247--p28udt7564/Regulators.dss
+Redirect p28uhs5_1247--p28udt10850/Loads.dss
+Redirect p28uhs5_1247--p28udt7478/Loads.dss
+Redirect p28uhs5_1247--p28udt7557/Loads.dss
+Redirect p28uhs5_1247--p28udt7564/Loads.dss
+Redirect p28uhs5_1247--p28udt7565/Loads.dss
+Redirect p28uhs5_1247--p28udt7571/Loads.dss
+Redirect p28uhs5_1247--p28udt10850/Storage.dss
+Redirect p28uhs5_1247--p28udt7478/Storage.dss
+Redirect p28uhs5_1247--p28udt7557/Storage.dss
+Redirect p28uhs5_1247--p28udt7564/Storage.dss
+Redirect p28uhs5_1247--p28udt7565/Storage.dss
+Redirect p28uhs5_1247--p28udt7571/Storage.dss
+Redirect p28uhs5_1247--p28udt10850/PVSystems.dss
+Redirect p28uhs5_1247--p28udt7478/PVSystems.dss
+Redirect p28uhs5_1247--p28udt7557/PVSystems.dss
+Redirect p28uhs5_1247--p28udt7564/PVSystems.dss
+Redirect p28uhs5_1247--p28udt7565/PVSystems.dss
+Redirect p28uhs5_1247--p28udt7571/PVSystems.dss
+new monitor.m1 element=Line.sb9_p28uhs5_1247_407 mode=0
+new monitor.m2 element=Line.sb9_p28uhs5_1247_407 mode=1
+new energymeter.m3 Line.sb9_p28uhs5_1247_407
+
+Set Voltagebases=[0.12, 0.208, 0.24, 0.48, 7.2, 12.47, 69.0]
+
+Calcvoltagebases
+
+Buscoords Buscoords.dss
+set maxcontroliter=50

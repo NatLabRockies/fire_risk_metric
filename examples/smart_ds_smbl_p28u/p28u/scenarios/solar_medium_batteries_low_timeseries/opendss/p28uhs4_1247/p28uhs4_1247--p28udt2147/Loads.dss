@@ -1,0 +1,2 @@
+New Load.load_p28ulv7737 conn=wye bus1=p28ulv7737.1.2.3 kV=0.48 Vminpu=0.8 Vmaxpu=1.2 model=1 kW=5.829973892362935 kvar=1.153516404485815 Phases=3 !yearly=com_kw_32249_pu
+

@@ -1,0 +1,52 @@
+Clear
+
+New Circuit.substation_p28uhs1_69 bus1=p28uhs1_69 pu=1.0 basekV=69.0 R1=1e-05 X1=1e-05 R0=1e-05 X0=1e-05
+
+Redirect LineCodes.dss
+Redirect p28uhs1_1247--p28udt10097/LineCodes.dss
+Redirect p28uhs1_1247--p28udt2954/LineCodes.dss
+Redirect p28uhs1_1247--p28udt7241/LineCodes.dss
+Redirect p28uhs1_1247--p28udt7270/LineCodes.dss
+Redirect p28uhs1_1247--p28udt7821/LineCodes.dss
+Redirect Lines.dss
+Redirect p28uhs1_1247--p28udt10097/Lines.dss
+Redirect p28uhs1_1247--p28udt2954/Lines.dss
+Redirect p28uhs1_1247--p28udt7241/Lines.dss
+Redirect p28uhs1_1247--p28udt7270/Lines.dss
+Redirect p28uhs1_1247--p28udt7821/Lines.dss
+Redirect Transformers.dss
+Redirect p28uhs1_1247--p28udt10097/Transformers.dss
+Redirect p28uhs1_1247--p28udt2954/Transformers.dss
+Redirect p28uhs1_1247--p28udt7241/Transformers.dss
+Redirect p28uhs1_1247--p28udt7270/Transformers.dss
+Redirect p28uhs1_1247--p28udt7821/Transformers.dss
+Redirect Regulators.dss
+Redirect p28uhs1_1247--p28udt10097/Regulators.dss
+Redirect p28uhs1_1247--p28udt7241/Regulators.dss
+Redirect p28uhs1_1247--p28udt7270/Regulators.dss
+Redirect p28uhs1_1247--p28udt7821/Regulators.dss
+Redirect p28uhs1_1247--p28udt10097/Loads.dss
+Redirect p28uhs1_1247--p28udt2954/Loads.dss
+Redirect p28uhs1_1247--p28udt7241/Loads.dss
+Redirect p28uhs1_1247--p28udt7270/Loads.dss
+Redirect p28uhs1_1247--p28udt7821/Loads.dss
+Redirect p28uhs1_1247--p28udt10097/Storage.dss
+Redirect p28uhs1_1247--p28udt2954/Storage.dss
+Redirect p28uhs1_1247--p28udt7241/Storage.dss
+Redirect p28uhs1_1247--p28udt7270/Storage.dss
+Redirect p28uhs1_1247--p28udt7821/Storage.dss
+Redirect p28uhs1_1247--p28udt10097/PVSystems.dss
+Redirect p28uhs1_1247--p28udt2954/PVSystems.dss
+Redirect p28uhs1_1247--p28udt7241/PVSystems.dss
+Redirect p28uhs1_1247--p28udt7270/PVSystems.dss
+Redirect p28uhs1_1247--p28udt7821/PVSystems.dss
+new monitor.m1 element=Line.sb9_p28uhs1_1247_407 mode=0
+new monitor.m2 element=Line.sb9_p28uhs1_1247_407 mode=1
+new energymeter.m3 Line.sb9_p28uhs1_1247_407
+
+Set Voltagebases=[0.12, 0.208, 0.24, 0.48, 7.2, 12.47, 69.0]
+
+Calcvoltagebases
+
+Buscoords Buscoords.dss
+set maxcontroliter=50

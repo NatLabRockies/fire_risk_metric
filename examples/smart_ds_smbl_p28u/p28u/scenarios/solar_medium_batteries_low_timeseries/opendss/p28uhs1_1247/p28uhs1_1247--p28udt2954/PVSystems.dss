@@ -1,0 +1,13 @@
+New PVSystem.pv_load_p28ulv22654 bus1=p28ulv22654.1.2.3 phases=3 kV=0.48 kVA=90.90909090909089 Pmpp=100.0 %Cutout=0.1 %Cutin=0.1 Model=1 pf=1.0 irradiance=1 !yearly=SFO_37.5335_-121.9241_25_225
+New PVSystem.pv_load_p28ulv31084 bus1=p28ulv31084.1.2.3 phases=3 kV=0.48 kVA=2.727272727272727 Pmpp=3.0 %Cutout=0.1 %Cutin=0.1 Model=1 pf=1.0 irradiance=1 !yearly=SFO_37.5704_-121.9241_15_90
+New PVSystem.pv_load_p28ulv3520 bus1=p28ulv3520.1.2.3 phases=3 kV=0.48 kVA=90.90909090909089 Pmpp=100.0 %Cutout=0.1 %Cutin=0.1 Model=1 pf=1.0 irradiance=1 !yearly=SFO_37.5335_-121.9241_25_180
+New PVSystem.pv_load_p28ulv3608 bus1=p28ulv3608.1.2.3 phases=3 kV=0.48 kVA=2.727272727272727 Pmpp=3.0 %Cutout=0.1 %Cutin=0.1 Model=1 pf=1.0 irradiance=1 !yearly=SFO_37.5704_-121.9241_25_270
+New PVSystem.pv_load_p28ulv33187 bus1=p28ulv33187.1.2.3 phases=3 kV=0.48 kVA=2.727272727272727 Pmpp=3.0 %Cutout=0.1 %Cutin=0.1 Model=1 pf=1.0 irradiance=1 !yearly=SFO_37.5704_-121.9241_25_90
+New PVSystem.pv_load_p28ulv22742 bus1=p28ulv22742.1.2.3 phases=3 kV=0.48 kVA=4.545454545454545 Pmpp=5.0 %Cutout=0.1 %Cutin=0.1 Model=1 pf=1.0 irradiance=1 !yearly=SFO_37.5335_-121.9241_35_135
+New PVSystem.pv_load_p28ulv35887 bus1=p28ulv35887.1.2.3 phases=3 kV=0.48 kVA=4.545454545454545 Pmpp=5.0 %Cutout=0.1 %Cutin=0.1 Model=1 pf=1.0 irradiance=1 !yearly=SFO_37.6072_-121.9241_25_270
+New PVSystem.pv_load_p28ulv10868 bus1=p28ulv10868.1.2.3 phases=3 kV=0.48 kVA=7.2727272727272725 Pmpp=8.0 %Cutout=0.1 %Cutin=0.1 Model=1 pf=1.0 irradiance=1 !yearly=SFO_37.6072_-121.9241_15_180
+New PVSystem.pv_load_p28ulv38965 bus1=p28ulv38965.1.2.3 phases=3 kV=0.48 kVA=2.8708133971291865 Pmpp=3.0 %Cutout=0.1 %Cutin=0.1 Model=1 pf=-0.95 irradiance=1 !yearly=SFO_37.6072_-121.9241_15_180
+New PVSystem.pv_load_p28ulv34925 bus1=p28ulv34925.1.2.3 phases=3 kV=0.48 kVA=2.8708133971291865 Pmpp=3.0 %Cutout=0.1 %Cutin=0.1 Model=1 pf=-0.95 irradiance=1 !yearly=SFO_37.5704_-121.9241_15_135
+New PVSystem.pv_load_p28ulv19959 bus1=p28ulv19959.1.2.3 phases=3 kV=0.48 kVA=7.655502392344497 Pmpp=8.0 %Cutout=0.1 %Cutin=0.1 Model=1 pf=-0.95 irradiance=1 !yearly=SFO_37.6072_-121.9241_35_180
+New PVSystem.pv_load_p28ulv3452 bus1=p28ulv3452.1.2.3 phases=3 kV=0.48 kVA=2.8708133971291865 Pmpp=3.0 %Cutout=0.1 %Cutin=0.1 Model=1 pf=-0.95 irradiance=1 !yearly=SFO_37.5704_-121.9241_25_90
+

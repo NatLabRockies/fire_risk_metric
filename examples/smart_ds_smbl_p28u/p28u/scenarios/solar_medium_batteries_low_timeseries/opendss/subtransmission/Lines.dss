@@ -1,0 +1,70 @@
+New Line.l(r:p28uhs7_69-p28uts1_69) Units=km Length=5.76322 bus1=p28uhs7_69-p28uts1_69xx.1.2.3 bus2=p28uhs7_69-p28uts1_69x.1.2.3 switch=n enabled=y phases=3 Linecode=3P_OH_AL_ACSR_477kcmil_Hawk_3
+
+New Line.l(r:p28uhs1_69-p28uts3_69) Units=km Length=4.85579 bus1=p28uhs1_69-p28uts3_69x.1.2.3 bus2=p28uhs1_69-p28uts3_69xx.1.2.3 switch=n enabled=y phases=3 Linecode=3P_OH_AL_ACSR_477kcmil_Hawk_3
+
+New Line.l(r:p28uhs1_69-p28uts0_69) Units=km Length=4.21201 bus1=p28uhs1_69-p28uts0_69xx.1.2.3 bus2=p28uhs1_69-p28uts0_69x.1.2.3 switch=n enabled=y phases=3 Linecode=3P_UG_AL_1000mcm_3
+
+New Line.l(r:p28uhs5_69-p28uts0_69) Units=km Length=2.8146500000000003 bus1=p28uhs5_69-p28uts0_69xx.1.2.3 bus2=p28uhs5_69-p28uts0_69x.1.2.3 switch=n enabled=y phases=3 Linecode=3P_OH_AL_ACSR_477kcmil_Hawk_3
+
+New Line.l(r:p28uhs0_69-p28uts0_69) Units=km Length=2.67197 bus1=p28uhs0_69-p28uts0_69xx.1.2.3 bus2=p28uhs0_69-p28uts0_69x.1.2.3 switch=n enabled=y phases=3 Linecode=3P_OH_AL_ACSR_477kcmil_Hawk_3
+
+New Line.l(r:p28uhs4_69-p28uts1_69) Units=km Length=0.48976200000000003 bus1=p28uhs4_69-p28uts1_69xx.1.2.3 bus2=p28uhs4_69-p28uts1_69x.1.2.3 switch=n enabled=y phases=3 Linecode=3P_OH_AL_ACSR_477kcmil_Hawk_3
+
+New Line.l(r:p28uhs6_69-p28uts2_69) Units=km Length=0.267724 bus1=p28uhs6_69-p28uts2_69xx.1.2.3 bus2=p28uhs6_69-p28uts2_69x.1.2.3 switch=n enabled=y phases=3 Linecode=3P_OH_AL_ACSR_477kcmil_Hawk_3
+
+New Line.l(r:p28uhs2_69-p28uts2_69) Units=km Length=0.264676 bus1=p28uhs2_69-p28uts2_69xx.1.2.3 bus2=p28uhs2_69-p28uts2_69x.1.2.3 switch=n enabled=y phases=3 Linecode=3P_OH_AL_ACSR_477kcmil_Hawk_3
+
+New Line.l(r:p28uhs3_69-p28uts3_69) Units=km Length=0.001 bus1=p28uhs3_69-p28uts3_69xx.1.2.3 bus2=p28uhs3_69-p28uts3_69x.1.2.3 switch=n enabled=y phases=3 Linecode=3P_OH_AL_ACSR_477kcmil_Hawk_3
+
+New Line.breaker(r:p28uts0_69-st_mat)p28u_35286 Units=km Length=0.001 bus1=st_mat.1.2.3 bus2=p28uts0_69-st_matxx.1.2.3 switch=y enabled=y phases=3 Linecode=breaker_3
+
+New Line.breaker(r:p28uts0_69-st_mat)p28u_35287 Units=km Length=0.001 bus1=p28uts0_69-st_matx.1.2.3 bus2=p28uts0_69.1.2.3 switch=y enabled=y phases=3 Linecode=breaker_3_1
+
+New Line.breaker(r:p28uts1_69-st_mat)p28u_35288 Units=km Length=0.001 bus1=st_mat.1.2.3 bus2=p28uts1_69-st_matxx.1.2.3 switch=y enabled=y phases=3 Linecode=breaker_3_2
+
+New Line.breaker(r:p28uts1_69-st_mat)p28u_35289 Units=km Length=0.001 bus1=p28uts1_69-st_matx.1.2.3 bus2=p28uts1_69.1.2.3 switch=y enabled=y phases=3 Linecode=breaker_3_3
+
+New Line.breaker(r:p28uts2_69-st_mat)p28u_35290 Units=km Length=0.001 bus1=st_mat.1.2.3 bus2=p28uts2_69-st_matxx.1.2.3 switch=y enabled=y phases=3 Linecode=breaker_3_3
+
+New Line.breaker(r:p28uts2_69-st_mat)p28u_35291 Units=km Length=0.001 bus1=p28uts2_69-st_matx.1.2.3 bus2=p28uts2_69.1.2.3 switch=y enabled=y phases=3 Linecode=breaker_3_4
+
+New Line.breaker(r:p28uts3_69-st_mat)p28u_35292 Units=km Length=0.001 bus1=st_mat.1.2.3 bus2=p28uts3_69-st_matxx.1.2.3 switch=y enabled=y phases=3 Linecode=breaker_3_3
+
+New Line.breaker(r:p28uts3_69-st_mat)p28u_35293 Units=km Length=0.001 bus1=p28uts3_69-st_matx.1.2.3 bus2=p28uts3_69.1.2.3 switch=y enabled=y phases=3 Linecode=breaker_3_5
+
+New Line.breaker(r:p28uhs7_69-p28uts1_69)p28u_35312 Units=km Length=0.001 bus1=p28uts1_69.1.2.3 bus2=p28uhs7_69-p28uts1_69xx.1.2.3 switch=y enabled=y phases=3 Linecode=breaker_3_6
+
+New Line.breaker(r:p28uhs7_69-p28uts1_69)p28u_35313 Units=km Length=0.001 bus1=p28uhs7_69-p28uts1_69x.1.2.3 bus2=p28uhs7_69.1.2.3 switch=y enabled=y phases=3 Linecode=breaker_3_3
+
+New Line.breaker(r:p28uhs1_69-p28uts3_69)p28u_35314 Units=km Length=0.001 bus1=p28uhs1_69.1.2.3 bus2=p28uhs1_69-p28uts3_69x.1.2.3 switch=y enabled=y phases=3 Linecode=breaker_3_7
+
+New Line.breaker(r:p28uhs1_69-p28uts3_69)p28u_35315 Units=km Length=0.001 bus1=p28uhs1_69-p28uts3_69xx.1.2.3 bus2=p28uts3_69.1.2.3 switch=y enabled=y phases=3 Linecode=breaker_3_3
+
+New Line.breaker(r:p28uhs1_69-p28uts0_69)p28u_35316 Units=km Length=0.001 bus1=p28uts0_69.1.2.3 bus2=p28uhs1_69-p28uts0_69xx.1.2.3 switch=y enabled=y phases=3 Linecode=breaker_3_7
+
+New Line.breaker(r:p28uhs1_69-p28uts0_69)p28u_35317 Units=km Length=0.001 bus1=p28uhs1_69-p28uts0_69x.1.2.3 bus2=p28uhs1_69.1.2.3 switch=y enabled=y phases=3 Linecode=breaker_3_7
+
+New Line.breaker(r:p28uhs5_69-p28uts0_69)p28u_35318 Units=km Length=0.001 bus1=p28uts0_69.1.2.3 bus2=p28uhs5_69-p28uts0_69xx.1.2.3 switch=y enabled=y phases=3 Linecode=breaker_3_3
+
+New Line.breaker(r:p28uhs5_69-p28uts0_69)p28u_35319 Units=km Length=0.001 bus1=p28uhs5_69-p28uts0_69x.1.2.3 bus2=p28uhs5_69.1.2.3 switch=y enabled=y phases=3 Linecode=breaker_3_8
+
+New Line.breaker(r:p28uhs0_69-p28uts0_69)p28u_35320 Units=km Length=0.001 bus1=p28uts0_69.1.2.3 bus2=p28uhs0_69-p28uts0_69xx.1.2.3 switch=y enabled=y phases=3 Linecode=breaker_3_3
+
+New Line.breaker(r:p28uhs0_69-p28uts0_69)p28u_35321 Units=km Length=0.001 bus1=p28uhs0_69-p28uts0_69x.1.2.3 bus2=p28uhs0_69.1.2.3 switch=y enabled=y phases=3 Linecode=breaker_3_4
+
+New Line.breaker(r:p28uhs4_69-p28uts1_69)p28u_35322 Units=km Length=0.001 bus1=p28uts1_69.1.2.3 bus2=p28uhs4_69-p28uts1_69xx.1.2.3 switch=y enabled=y phases=3 Linecode=breaker_3_3
+
+New Line.breaker(r:p28uhs4_69-p28uts1_69)p28u_35323 Units=km Length=0.001 bus1=p28uhs4_69-p28uts1_69x.1.2.3 bus2=p28uhs4_69.1.2.3 switch=y enabled=y phases=3 Linecode=breaker_3_9
+
+New Line.breaker(r:p28uhs6_69-p28uts2_69)p28u_35324 Units=km Length=0.001 bus1=p28uts2_69.1.2.3 bus2=p28uhs6_69-p28uts2_69xx.1.2.3 switch=y enabled=y phases=3 Linecode=breaker_3_3
+
+New Line.breaker(r:p28uhs6_69-p28uts2_69)p28u_35325 Units=km Length=0.001 bus1=p28uhs6_69-p28uts2_69x.1.2.3 bus2=p28uhs6_69.1.2.3 switch=y enabled=y phases=3 Linecode=breaker_3_3
+
+New Line.breaker(r:p28uhs2_69-p28uts2_69)p28u_35326 Units=km Length=0.001 bus1=p28uts2_69.1.2.3 bus2=p28uhs2_69-p28uts2_69xx.1.2.3 switch=y enabled=y phases=3 Linecode=breaker_3_10
+
+New Line.breaker(r:p28uhs2_69-p28uts2_69)p28u_35327 Units=km Length=0.001 bus1=p28uhs2_69-p28uts2_69x.1.2.3 bus2=p28uhs2_69.1.2.3 switch=y enabled=y phases=3 Linecode=breaker_3_10
+
+New Line.breaker(r:p28uhs3_69-p28uts3_69)p28u_35328 Units=km Length=0.001 bus1=p28uts3_69.1.2.3 bus2=p28uhs3_69-p28uts3_69xx.1.2.3 switch=y enabled=y phases=3 Linecode=breaker_3_3
+
+New Line.breaker(r:p28uhs3_69-p28uts3_69)p28u_35329 Units=km Length=0.001 bus1=p28uhs3_69-p28uts3_69x.1.2.3 bus2=p28uhs3_69.1.2.3 switch=y enabled=y phases=3 Linecode=breaker_3_3
+

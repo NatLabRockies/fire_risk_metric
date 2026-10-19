@@ -1,0 +1,10 @@
+New Storage.storage_p28ulv26404 phases=1 bus1=p28ulv26404.1.2 kV=0.24 kVA=8.8 kWRated=8.0 kWhRated=16.0 kWhStored=8.0 State=IDLING %EffCharge=95.0 %EffDischarge=95.0
+New Storage.storage_p28ulv15170 phases=3 bus1=p28ulv15170.1.2.3 kV=0.48 kVA=8.8 kWRated=8.0 kWhRated=16.0 kWhStored=8.0 State=IDLING %EffCharge=95.0 %EffDischarge=95.0
+New Storage.storage_p28ulv16424 phases=1 bus1=p28ulv16424.1.2 kV=0.24 kVA=8.8 kWRated=8.0 kWhRated=16.0 kWhStored=8.0 State=IDLING %EffCharge=95.0 %EffDischarge=95.0
+New Storage.storage_p28ulv46328 phases=3 bus1=p28ulv46328.1.2.3 kV=0.48 kVA=8.8 kWRated=8.0 kWhRated=16.0 kWhStored=8.0 State=IDLING %EffCharge=95.0 %EffDischarge=95.0
+New Storage.storage_p28ulv28524 phases=1 bus1=p28ulv28524.1.2 kV=0.24 kVA=8.8 kWRated=8.0 kWhRated=16.0 kWhStored=8.0 State=IDLING %EffCharge=95.0 %EffDischarge=95.0
+New Storage.storage_p28ulv28624 phases=1 bus1=p28ulv28624.1.2 kV=0.24 kVA=8.8 kWRated=8.0 kWhRated=16.0 kWhStored=8.0 State=IDLING %EffCharge=95.0 %EffDischarge=95.0
+New Storage.storage_p28ulv42976 phases=1 bus1=p28ulv42976.1.2 kV=0.24 kVA=8.8 kWRated=8.0 kWhRated=16.0 kWhStored=8.0 State=IDLING %EffCharge=95.0 %EffDischarge=95.0
+New Storage.storage_p28ulv39013 phases=1 bus1=p28ulv39013.1.2 kV=0.24 kVA=8.8 kWRated=8.0 kWhRated=16.0 kWhStored=8.0 State=IDLING %EffCharge=95.0 %EffDischarge=95.0
+New Storage.storage_p28ulv6181 phases=1 bus1=p28ulv6181.1.2 kV=0.24 kVA=8.8 kWRated=8.0 kWhRated=16.0 kWhStored=8.0 State=IDLING %EffCharge=95.0 %EffDischarge=95.0
+New Storage.storage_p28ulv14817 phases=1 bus1=p28ulv14817.1.2 kV=0.24 kVA=8.8 kWRated=8.0 kWhRated=16.0 kWhStored=8.0 State=IDLING %EffCharge=95.0 %EffDischarge=95.0
