@@ -30,9 +30,10 @@ def get_dist_risk_from_parquet(dist_risk_file):
     print(dist_risk_df['p10uhs0_1247--p10udt2190'][0])
     return dist_risk_df
 
-def get_dist_fire_traits(power_model, bus_coords):
+def get_dist_fire_traits(power_model, bus_coords, hist_prob):
     # check the risks we know just by looking at the distribution model 
     # default to 0
+    # multiply the riskiness by the probability that thing occurs based on historical reports (hist_prob)
     n_traits = len(dist_trait_names)
     dist_fire_components = pd.read_csv(power_model) #get_dist_risk_from_parquet(power_model)
     #dist_risk_scores = {}
@@ -55,33 +56,40 @@ def get_dist_fire_traits(power_model, bus_coords):
         overhead = False
         # check line features
         if dfc.startswith('Line'):
+            # check line-to-veg
+            risk_score[0] = 5 * hist_prob['dist_factors']['line_to_veg_dist']['short']
+            # check line-to-line
+            risk_score[1] = 5 * hist_prob['dist_factors']['line_to_line_dist']['short']
+            # check line_to_ground
+            risk_score[2] = 5 * hist_prob['dist_factors']['line_to_gnd_dist']['short']
             # check age
             if dfc:
-                risk_score[3] = 0
+                risk_score[3] = 0 * hist_prob['dist_factors']['line_age']['old']
         percent_overhead = dfc_entry['percentage overhead']
-        risk_score[6] = percent_overhead/10
+        risk_score[6] = percent_overhead/10 * hist_prob['dist_factors']['overhead']['overhead']
         # check if insulated. True for low voltage in city or UG lines
         if 'lv' not in dfc_entry['feeder']:
             uninsulated = percent_overhead
             risk_score[7] = uninsulated/10
+        risk_score[7] = risk_score[7] * hist_prob['dist_factors']['uninsulated']['True']
         # check line peak current
-        risk_score[8] = dfc_entry['percentage line length overloaded']
+        risk_score[8] = dfc_entry['percentage line length overloaded'] * hist_prob['dist_factors']['line_peak_load']['high']
         # check transformer loading
-        risk_score[9] = dfc_entry['percentage transformers overloaded']
+        risk_score[9] = dfc_entry['percentage transformers overloaded'] * hist_prob['dist_factors']['transformer_peak_load']['high']
         # check if oil
         #if dfc: # assume all smart ds transformers are oil based
-        risk_score[5] = 10
+        risk_score[5] = 10 #* hist_prob['dist_factors']['oil_type_transformer']]
         # check resilience features
         # high impedance fault detection is still an area of research, power
-        # safety shutoffs are only used in some areas of California
-        # misting fire hose nozzles near high voltage lines were only applied in China
-        # response team coordination is difficult to quantify
-        # most fire response teams have 1km resolution sattelite tracking
-        risk_score[10] = 10 # high impedance fault detection
-        risk_score[11] = 5 # power safety shutoffs
-        risk_score[12] = 10 # fuse_type
-        risk_score[13] = 5 # response team coordination
-        risk_score[14] = 1 # high fidelity tracking
+        # safety shutoffs are only used in some areas with a history of wildfires
+        # utilities with advanced wildfire mitigation plans have removed expulsionary fuses and may have started to implement programmable reclosers
+        # response team coordination is difficult to quantify, but most utilities with a wildfire mitigation plan have some coordination
+        # most fire response teams have 1km resolution sattelite tracking, but some advanced ones may have on the ground monitoring
+        risk_score[10] = 10 #* hist_prob['dist_factors']['hif_detection'] # high impedance fault detection
+        risk_score[11] = 10 #* hist_prob['dist_factors']['powersafety_shutoff']# power safety shutoffs
+        risk_score[12] = 10 * sum(hist_prob['dist_factors']['fuse_type'].values())# fuse_type
+        risk_score[13] = 0 * hist_prob['dist_factors']['response_team_coordination']['True']# response team coordination
+        risk_score[14] = 1 #* hist_prob['dist_factors']['high_fidelity_tracking'] # high fidelity tracking
         # add risk score to json
         #dist_fire_components[index]['score'] = risk_score
         dfc_score.append(risk_score)
@@ -173,7 +181,8 @@ def get_dist_fire_locations(power_model_dir):
             #             dist_fire_components[name]['normamps'] = 1000000000 # need to find a way to add rating
     return dist_fire_components, bus_coords
 
-def get_terrain_coords(soil_file, soil_moisture_file, veg_file, lightning_file, burnprob_file):
+def get_terrain_coords(soil_file, soil_moisture_file, veg_file, lightning_file, burnprob_file, hist_prob):
+    # get the risk factors based on lit review and multiply by historical probability of utility ignition event relating to that factor
     # parse the files and select only the bay area: as defined as
     # north to Sacremento: 38.5816N 121.4944W, 
     # south and east to Fresno: 36.7378N 119.7871W, 
@@ -215,7 +224,7 @@ def get_terrain_coords(soil_file, soil_moisture_file, veg_file, lightning_file, 
             soil_entry["geometry"]["type"] = "Point"
             soil_entry["geometry"]["coordinates"] = (lat, long)
             soil_entry["properties"]={}
-            soil_entry["properties"]["soil_sat"]=risk
+            soil_entry["properties"]["soil_sat"]=risk #* hist_prob['env_factors']['soil_saturation']
             soil_entry["properties"]["date"] = date
             soil_entry["properties"]["time"] = time
             moisture_risk_list.append(soil_entry)
@@ -258,7 +267,7 @@ def get_terrain_coords(soil_file, soil_moisture_file, veg_file, lightning_file, 
                             lightning_entry["geometry"]["type"] = "Point"
                             lightning_entry["geometry"]["coordinates"] = (lat, long)
                             lightning_entry["properties"]={}
-                            lightning_entry["properties"]["flash"]=risk
+                            lightning_entry["properties"]["flash"]=risk * hist_prob['env_factors']['lightning']['nearby']
                             lightning_entry["properties"]["month"]=month
                             flash_risk_list.append(lightning_entry)
                             terrain_component_coords["features"].append(lightning_entry)
@@ -272,36 +281,39 @@ def get_terrain_coords(soil_file, soil_moisture_file, veg_file, lightning_file, 
         lat = float(lat)
         long = float(long)
         if ess == 'Managed':
-            risk = 0
+            risk = 10 * hist_prob['env_factors']['ground_veg']['Managed']
         elif ess == 'Unmanaged': #unmanaged means it was managed or disturbed by people in the past
-            risk = 10
+            risk = 10 * hist_prob['env_factors']['ground_veg']['Unmanaged']
         else: # if it's natural
-            risk = 5
+            risk = 10 * hist_prob['env_factors']['ground_veg']['Natural']
         vegetation_risk=risk
-            
+
         if est == 'Desert':
-            risk = 10
+            # lower risk than others given limited fuel
+            risk = 7 * hist_prob['env_factors']['ground_veg']['Desert']
         elif est == 'Savanna':
-            risk = 9
+            # lower risk than others given limited fuel
+            risk = 7 * hist_prob['env_factors']['ground_veg']['Savannah']
         elif est == 'Grassland':
-            risk = 8
+            # highest risk given fast spread and easily burned fuel
+            risk = 10 * hist_prob['env_factors']['ground_veg']['Grassland']
         elif est == 'Shrubland':
-            risk = 7
+            risk = 8 * hist_prob['env_factors']['ground_veg']['Grassland'] # historical reports did not have a shrubland category, but likely would have fit with grassland
         elif est == 'Forest':
-            risk = 6
+            risk = 8 * hist_prob['env_factors']['ground_veg']['Forest']
         elif est == 'Agriculture':
-            risk = 5
+            risk = 8 * hist_prob['env_factors']['ground_veg']['Agriculture']
         else: # nan's 0s
             risk = 0
         vegetation_risk = (vegetation_risk + risk)/2
         for month in range(1,12):
             if lh =='Deciduous':
                 if month>=9 and month<=11:
-                    risk = 5
+                    risk = 5 * hist_prob['env_factors']['ground_veg']['Deciduous']
                 else:
-                    risk = 3
+                    risk = 3 * hist_prob['env_factors']['ground_veg']['Deciduous']
             else: # if evergreen
-                risk = 5
+                risk = 5 * hist_prob['env_factors']['ground_veg']['Non-Deciduous']
             vegetation_risk = (vegetation_risk*2 + risk)/3
             if risk == 'nan' or np.isnan(risk):
                 print('nan risk in vegetation')
@@ -440,9 +452,18 @@ def get_interrelated_risk(terrain_risks, dist_risks, soil_risk, lightning_risk, 
         all_risks[dfr['feeder']]['coords'] = dfr['coords']
     return all_risks
 
-def quantify_fire_risk(power_model_risk, fire_gis_dir, soil_file, soil_moisture_file, veg_file, lightning_file, burnprob_file, temperature_file, wind_file):
+def adjust_to_historical_importance(hist_ign_prob, fire_risk_index):
+    #multiply the risk factors accounted for in the fire_risk_index by the historical proabability to 
+    # make sure that the risk factor importance is valid according to historical data
+
+    return total_fire_risk
+
+def quantify_fire_risk(power_model_risk, fire_gis_dir, soil_file, soil_moisture_file, veg_file, lightning_file, burnprob_file, temperature_file, wind_file, hist_ign_prob_file):
     # start with a fire risk of zero and slowly add to that
     total_fire_risk = 0
+    # read in the historical ignition probabilities json and multiply them by the risk factors
+    with open(hist_ign_prob_file, 'r') as hist_file:
+        hist_ign_prob = json.load(hist_file)
     # initialize list of terrain traits
     # establish fire risk correlations
     dist_terr_cross_list = distribution_terrain_risk_matrix()
@@ -456,45 +477,14 @@ def quantify_fire_risk(power_model_risk, fire_gis_dir, soil_file, soil_moisture_
     terrain_component_coords, soil_risk, lightning_risk, veg_risk = get_terrain_coords(soil_file, soil_moisture_file, veg_file, lightning_file, burnprob_file)
     # use nearest neighbor to find interdependent risk factors
     total_fire_risk = get_interrelated_risk(terrain_component_coords, dist_fire_components, soil_risk, lightning_risk, veg_risk, temperature_file, wind_file)
+    # use the historical ignition probabilities to multiply the risks by historical importance in ignition events
+    total_fire_risk = adjust_to_historical_importance(hist_ign_prob, total_fire_risk)
     
     return total_fire_risk
 
-def historical_probability_matrix(historical_ignition_csv):
-    # historical ignition data is used to determine the liklihood of an ignition being
-    # caused by a certain combination of characteristics
-    # the alignment is described with the 'risk_descriptor':{historical_data_heading:[relevant,ignitionevent,tags]}
-    # a zero is a placeholder after characteristics that aren't described in historical data
-    hist_df = pd.read_csv(historical_ignition_csv)
-    n_ignitions = len(hist_df)
-    # first set up mapping from distribution traits to labels in the historical ignitions
-    dist_trait_to_label = {'line_to_veg_dist':{'Suspected Ignition Cause':['Contact - Customer(Equip/Structure/Veg)', 'Contact from Object', 'Vegetation']},
-                    'line_to_line_dist':{'Suspected Ignition Cause': ['Wire-Wire Contact', 'Wire-to-wire contact']}, 
-                    'line_to_gnd_dist':0,
-                    'line_age':{'Equipment Facility Failure': ['Conductor', 'Conductor*', 'SECONDARY CONDUCTOR OH', 'Service Drop']},
-                    'transformer_age':{'Equipment Facility Failure':['Transformer', 'Transformer failure']},
-                    'oil_type_transformer':0, 
-                    'overhead':{'Type': ['Overhead', 'DISTRIBUTION']},
-                    'uninsulated': {'Equipment Involved With Ignition': ['Conductor', 'Conductor*', 'Secondary Conductor', 'Service Drop']},
-                    'line_peak_load': {'Equipment Facility Failure': ['Conductor', 'Conductor*', 'SECONDARY CONDUCTOR OH', 'Service Drop', 'Tie Wire', 'Tie wire failure', 'WIRE-TO-WIRE CONTACT']},
-                    'transformer_peak_load':{'Equipment Involved With Ignition':['Transformer', 'Transformer Bushing']}, 
-                    'hif_detection':0, 
-                    'powersafety_shutoff':0,
-                    'fuse_type':{'Equipment Involved With Ignition':['Recloser', 'Switch', 'Circuit Breaker', 'Open Link Fuse', 'Fuse', 'E Fuse']}, 
-                    'response_team_coordination':{'Suppressed':['Patrol', 'CalFire', 'Fire Agency']}, 
-                    'high_fidelity_tracking':0, 
-                    'pole_type':{'Equipment Involved With Ignition':['Pole', 'Cross Arm', 'Crossarm'], 'Equipment Facility Failure':['Pole', 'Pole Failure', 'CROSS ARM', 'crossarm', 'crossarm failure']}
-    }
-    # then set up mappings from terrain descriptions to labels in the historical ignitions
-    terrain_to_label = {'ground_veg':{'Material at Origin', 'Land Use at Origin'},
-                         'soil_saturation':0, 
-                         'veg_moisture':0, 
-                         'lightning':{'Suspected Ignition Cause': ['Weather - Lightning']},
-                         'wind_speed':{'Suspected Ignition Cause':['Weather - High Wind', 'Wire-Wire Contact', 'Wire-to-wire Contact']},
-                         'ambient_temp':0 }
-
-    return historical_probability_matrix
 
 if __name__=="__main__":
+    hist_ign_prob_file='ignition_probs_ca_ious.json'
     power_model_dir = pathlib.Path("p28u")
     #"P1U/solar_medium_batteries_low_timeseries/DSSfiles/p1uhs0_1247"
     #sys.argv[1]
@@ -519,5 +509,5 @@ if __name__=="__main__":
     veg_file = fire_gis_dir / veg_file
     lightning_file = fire_gis_dir / lightning_file
     burnprob_file = fire_gis_dir / burnprob_file
-    total_fire_risk = quantify_fire_risk(power_model_risk, fire_gis_dir, soil_file, soil_moisture_file, veg_file, lightning_file, burnprob_file, temperature_file, wind_file)
+    total_fire_risk = quantify_fire_risk(power_model_risk, fire_gis_dir, soil_file, soil_moisture_file, veg_file, lightning_file, burnprob_file, temperature_file, wind_file, hist_ign_prob_file)
     print(total_fire_risk)
